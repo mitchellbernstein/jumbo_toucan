@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Jumbo Toucan</title>
+	<link rel="stylesheet" href="">
+<style type="text/css" media="screen">
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*////////////////////*/
+/* Grid */
+/*////////////////////*/
+
+body {
+	background-image: linear-gradient(-180deg, #D8D8D8 0%, #FFFFFF 100%);
+}
+
+.container-grid {
+	max-width: 1100pt;
+	margin: auto;
+	padding: 0pt 36pt 0pt 36pt;
+}
+.container-hero {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	/*background-color: orange;*/
+
+	height: calc(100vh - 160px);  
+}
+
+/*////////////////////*/
+/* Header */
+/*////////////////////*/
+
+	#header {
+		padding: 50pt 50pt 10pt 50pt;
+		background-color: #FFFFFF;
+	}
+
+	/* Left Side */
+
+	#container-title {
+		float: left;
+
+		font-family: SofiaProSoftBold;
+		font-size: 24px;
+		color: #000000;
+		letter-spacing: -0.51px;
+		line-height: 40px;
+	}
+
+	/* Right Side */
+
+	#container-nav-items {
+		display: -webkit-flex;
+    	display: flex;
+    	/*background-color: grey;*/
+    	flex-direction: row;
+    	justify-content: flex-end;
+	}
+	.nav-item {
+		margin-right: 40pt;
+
+		font-family: ProximaNovaSoft-Regular;
+		font-size: 18px;
+		color: #000000;
+		letter-spacing: -0.38px;
+		line-height: 40px;
+	}
+	.nav-item:last-child {
+		margin-right: 0pt;
+	}
+
+	/* Logo Links */
+
+	#container-title a {
+		color: #000000;
+		text-decoration: none;
+	}
+	#container-title a:link {
+		color: #000000;
+		text-decoration: none;
+	}
+	#container-title a:visited {
+		color: #7F7F7F;
+		text-decoration: none;
+	}
+	#container-title a:hover {
+		color: #7F7F7F;
+		text-decoration: none;
+	}
+	#container-title a:active {
+		color: #7F7F7F;
+		text-decoration: none;
+	}
+
+	/* Nav Links */
+
+	#container-nav-items li a {
+		color: #7F7F7F;
+		text-decoration: none;
+	}
+	#container-nav-items li a:link {
+		color: #7F7F7F;
+		text-decoration: none;
+	}
+	#container-nav-items li a:visited {
+		color: #7F7F7F;
+		text-decoration: none;
+	}
+	#container-nav-items li a:hover {
+		color: #000000;
+		text-decoration: none;
+	}
+	#container-nav-items li a:active {
+		color: #000000;
+		text-decoration: none;
+	}
+
+/*////////////////////*/
+/* Hero */
+/*////////////////////*/
+
+	/* Left Side */
+	.text-hero {
+	}
+	.text-hero h1 {
+		font-size: 56px;
+		color: #000000;
+		background-color: #000000;
+		font-family: ProximaNovaSoft-Bold;
+		font-size: 56px;
+		color: #FFFFFF;
+		letter-spacing: -0.94px;
+		line-height: 86px;
+
+		max-width: 130pt;
+		margin-bottom: 1px;
+		padding: 0pt 14pt 0pt 14pt;
+	}
+	.text-caption {
+		display: inline-block;
+		clear: both;
+		float: left;
+		font-size: 24px;
+		color: #FFFFFF;
+		background-color: #000000;
+		font-family: ProximaNovaSoft-Regular;
+		font-size: 24px;
+		letter-spacing: -0.41px;
+		line-height: 40px;
+
+		margin-bottom: 1px;
+		padding: 2pt 14pt 2pt 14pt;
+	}
+	.form-signup {
+		float: left;
+		clear: both;
+
+		margin-top: 20pt;
+	}
+	
+	
+
+
+</style>
+</head>
+<body>
+	<!-- Header -->
+	<header id="header" class="">
+		<div>
+			<div id="container-title">
+				<a href="jumbotoucan.com" "Jumbo Toucan">Jumbo Toucan</a>
+			</div>
+			<ol id="container-nav-items">
+				<li class="nav-item"><a href="" "Cycles">Cycles</a></li>
+				<li class="nav-item"><a href="" "Profile">Profile</a></li>
+				<li class="nav-item"><a href="" "Blog">Blog</a></li>
+				<li class="nav-item"><a href="" "Contact">Contact</a></li>
+			</ol>
+		</div>
+	</header>
+	<div class="container-hero container-grid">
+		<div class="text-hero">
+			<h1>Cycles</h1>
+			<p class="text-caption">Create meaningful alerts and take</p>
+			<p class="text-caption">control over your schedule.</p>
+			<form action="index_submit" method="get" accept-charset="utf-8" class="form-signup">
+    			<input name="email" type="email" placeholder="Email me when it’s ready">
+    			<input id="signup" name="signup" type="submit" value="Signup">
+			</form>
+		</div>
+		<div class="img-hero">
+			<img src="" alt="">
+		</div>
+	</div>
+</body>
+</html>
