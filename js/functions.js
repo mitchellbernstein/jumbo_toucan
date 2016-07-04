@@ -17,7 +17,7 @@ $(window).scroll(function(){
 	});
 	// Controls cicle shape
 	$(".shape-2").css({
-		"transform" : "translate(0px, -"+ wScroll /80 +"%)"
+		"transform" : "translate(0px, -"+ wScroll /160 +"%)"
 	});
 
 });
