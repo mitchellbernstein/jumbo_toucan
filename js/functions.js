@@ -9,11 +9,11 @@ $(window).scroll(function(){
 	});
 	// Controls Watch
 	$(".watch-1").css({
-		"transform" : "translate(0px, -"+ wScroll /8 +"%)"
+		"transform" : "translate(0px, -"+ wScroll /6 +"%)"
 	});
 	// Controls Square shape
 	$(".shape-1").css({
-		"transform" : "translate(0px, -"+ wScroll /20 +"%)"
+		"transform" : "translate(0px, -"+ wScroll /40 +"%)"
 	});
 	// Controls cicle shape
 	$(".shape-2").css({

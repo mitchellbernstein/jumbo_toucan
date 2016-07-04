@@ -1,38 +1,3 @@
-.spacer {
-  background-color: #e1e1e1; }
-
-.nav {
-  display: flex;
-  max-width: 1228px;
-  padding: 0px 64px 0px 64px;
-  margin: 0 auto; }
-  .nav .logo {
-    font-family: SofiaProSoftBold;
-    font-size: 24px;
-    color: #181F65;
-    letter-spacing: -0.51px;
-    margin-top: 50px;
-    margin-bottom: 0;
-    -webkit-align-self: flex-start;
-    align-self: flex-start; }
-  .nav .nav-items {
-    font-family: ProximaNovaSoft-Regular;
-    font-size: 18px;
-    color: #181F65;
-    letter-spacing: -0.38px;
-    line-height: 40px;
-    margin-top: 50px;
-    margin-left: auto;
-    list-style: none;
-    margin-bottom: 0;
-    display: flex; }
-    .nav .nav-items li {
-      margin-left: 50px;
-      a: link;
-        a-color: #181F65;
-      a: hover;
-        a-color: #181F65; }
-
 .hero-box {
   position: relative;
   height: 700px;
@@ -76,3 +41,45 @@
     margin-left: -230px;
     top: 50%;
     z-index: 2; }
+
+.nav {
+  display: flex;
+  max-width: 1228px;
+  padding: 0px 64px 0px 64px;
+  margin: 0 auto; }
+  .nav .logo {
+    font-family: SofiaProSoftBold;
+    font-size: 24px;
+    color: #181F65;
+    letter-spacing: -0.51px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    -webkit-align-self: flex-start;
+    align-self: flex-start; }
+  .nav .nav-items {
+    font-family: ProximaNovaSoft-Regular;
+    font-size: 18px;
+    color: #181F65;
+    letter-spacing: -0.38px;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-left: auto;
+    list-style: none;
+    margin-bottom: 0;
+    display: flex; }
+    .nav .nav-items li {
+      margin-left: 50px;
+      color: #181F65;
+      text-decoration: none;
+      line-height: 40px; }
+      .nav .nav-items li a:link {
+        background-color: red;
+        color: #181F65;
+        text-decoration: none; }
+      .nav .nav-items li a:hover {
+        background-color: green;
+        color: #181F65;
+        text-decoration: none; }
+
+.spacer {
+  background-color: #e1e1e1; }
