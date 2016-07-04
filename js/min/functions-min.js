@@ -1,0 +1,1 @@
+$(window).scroll(function(){var s=$(this).scrollTop();$(".h1").css({transform:"translate(0px, -"+s/12+"%)"}),$(".watch-1").css({transform:"translate(0px, -"+s/8+"%)"}),$(".shape-1").css({transform:"translate(0px, -"+s/20+"%)"}),$(".shape-2").css({transform:"translate(0px, -"+s/80+"%)"})});
