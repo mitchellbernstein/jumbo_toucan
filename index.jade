@@ -12,33 +12,53 @@ html(land="en")
 		link(rel="stylesheet", href="css/main.css")
 
 	body
+		.above-footer
+			.nav
+				.logo
+					p Jumbo Toucan
 
-		.nav
+				ul.nav-items
+					li: a(href="") Cycles
+					li: a(href="") Profile
+					li: a(href="") Blog
+					li: a(href="") Contact
 
-			.logo
+			.hero-box
+				.h1
+				.watch-1
+				.shape-1
+				.shape-2
+				.shape-3
 
-				p Jumbo Toucan
+			//.content
+			//	.content-group
+			//		.h1 Hello
 
-			ul.nav-items
-				li 
-					a(href="") Cycles
-				li
-					a(href="") Profile
-				li
-					a(href="") Blog
-				li
-					a(href="") Contact
-
-		.hero-box
-
-			.h1
-			.watch-1
-			.shape-1
-			.shape-2
-
+			.container
+				form.row
+					.columns.eight
+						input.u-full-width(type="email" placeholder="Email me when it's ready")
+					.columns.four
+						input.button-primary.u-full-width(type="submit")
 		footer
+			.container
+				.shape-4
+				h2.row Contact
+				.p-1.row Jumbo Toucan is a tiny duo studio. We make things becasue we really want to!
 
-	.spacer(style="height: 2000px")
+				.row
+					.six.columns
+						h5 Reach out
+						ul
+							li: a(href="") @jumbotoucan
+							li: a(href="") @alecdidiln
+							li: a(href="") @mitchbernstein
+					.six.columns
+						h5 Elsewhere
+						ul
+							li: a(href="") Facebook
+							li: a(href="") Twitter
+							li: a(href="") Email
 
 	script(src="/js/jquery-2.1.3.min.js")
 	script(src="/js/functions.js")

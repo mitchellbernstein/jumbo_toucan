@@ -31,7 +31,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -158,9 +158,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #181F65; }
+  color: #181F65;
+  text-decoration: none; }
 a:hover {
-  color: #4B5EBA; }
+  color: #4B5EBA;
+  text-decoration: none; }
 
 
 /* Buttons
@@ -288,9 +290,9 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: none; }
 ol {
-  list-style: decimal inside; }
+  list-style: none; }
 ol, ul {
   padding-left: 0;
   margin-top: 0; }
@@ -311,7 +313,7 @@ code {
   margin: 0 .2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #F1F1F1;
+  background: #FFFFFF;
   border: 1px solid #E1E1E1;
   border-radius: 4px; }
 pre > code {

@@ -1,3 +1,29 @@
+.above-footer {
+  background: #FFFFFF;
+  margin-bottom: 100vh; }
+
+h2 {
+  font-family: SofiaProSoftBold;
+  font-size: 80px;
+  color: #181F65;
+  letter-spacing: -4.13px;
+  margin-bottom: 50px; }
+
+h5 {
+  font-family: SofiaProSoftRegular;
+  font-size: 20px;
+  color: #9DA1B8;
+  letter-spacing: -0.42px;
+  line-height: 48px; }
+
+.p-1 {
+  font-family: SofiaProSoftRegular;
+  font-size: 48px;
+  color: #9DA1B8;
+  letter-spacing: -1px;
+  line-height: 56px;
+  margin-bottom: 60px; }
+
 .hero-box {
   position: relative;
   height: 700px;
@@ -41,6 +67,15 @@
     margin-left: -230px;
     top: 50%;
     z-index: 2; }
+  .hero-box .shape-3 {
+    height: 10px;
+    width: 80px;
+    background-color: #20C907;
+    position: absolute;
+    left: 20%;
+    margin-left: -210px;
+    top: 12%;
+    z-index: 1; }
 
 .nav {
   display: flex;
@@ -52,7 +87,7 @@
     font-size: 24px;
     color: #181F65;
     letter-spacing: -0.51px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 0;
     -webkit-align-self: flex-start;
     align-self: flex-start; }
@@ -62,7 +97,7 @@
     color: #181F65;
     letter-spacing: -0.38px;
     line-height: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: auto;
     list-style: none;
     margin-bottom: 0;
@@ -80,5 +115,51 @@
         color: #181F65;
         text-decoration: none; }
 
+.content-group {
+  position: relative;
+  height: 100vh;
+  background-color: rgba(255, 0, 0, 0.05);
+  background-size: auto 600px;
+  background-position: top center;
+  max-width: 1100px;
+  margin: 5% auto; }
+  .content-group .h1 {
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/cycles-h1.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0%;
+    top: 500px;
+    margin-top: -60px;
+    z-index: 5; }
+
+form {
+  max-width: 440px;
+  margin: 0 auto 200px auto; }
+
+footer {
+  background: #FFFFFF;
+  padding: 120px 0 60px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1; }
+  footer a {
+    font-family: SofiaProSoftRegular;
+    font-size: 20px;
+    color: #181F65;
+    letter-spacing: -0.42px; }
+
+.shape-4 {
+  height: 10px;
+  width: 80px;
+  background-color: #20C907;
+  margin-bottom: 24px; }
+
 .spacer {
-  background-color: #e1e1e1; }
+  background-color: #FFFFFF; }
+
+body {
+  background-color: white; }
