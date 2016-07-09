@@ -20,7 +20,7 @@ html(land="en")
 				ul.nav-items
 					li: a(href="") Cycles
 					li: a(href="") Profile
-					li: a(href="") Blog
+					//li: a(href="") Blog
 					li: a(href="") Contact
 
 			.hero-box
@@ -30,21 +30,45 @@ html(land="en")
 				.shape-2
 				.shape-3
 
-			//.content
-			//	.content-group
-			//		.h1 Hello
-
 			.container
+				.points.row
+					.columns.four
+						#point-1
+						h3.blue Up to 5 Cycles
+						.p-2.blue Need to get more done? You can make up to 5 different cycles, for all your needs! Whether it be to remind you or encourage you.
+					.columns.four
+						#point-2
+						h3.blue Customize
+						.p-2.blue You can make cycles for any taks you can imagine. Be alerted to walk the dog, drink a glass of water, or to step away from the computer.
+					.columns.four
+						#point-3
+						h3.blue Your Alerts
+						.p-2.blue You have the ability to set when you want to be notified. Up to 2 alerts every hour, but only when you're awake, of course.
+
 				form.row
 					.columns.eight
 						input.u-full-width(type="email" placeholder="Email me when it's ready")
 					.columns.four
-						input.button-primary.u-full-width(type="submit")
+						input.button-primary.u-full-width(type="submit" )
+			.blue-bg
+				.container.row
+					.shape-4.row
+					h2.white.row Made by
+				.container.row
+					.columns.six
+						.profile-img
+						h3 Alec Dilanchian
+						.p-2 Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua. But enim ad min im veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+					.columns.six
+						.profile-img
+						h3 Mitchell Bernstein
+						.p-2 Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua. But enim ad min im veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+
 		footer
 			.container
 				.shape-4
-				h2.row Contact
-				.p-1.row Jumbo Toucan is a tiny duo studio. We make things becasue we really want to!
+				h2.blue.row Contact
+				.p-1.row Jumbo Toucan is a tiny duo studio. We make things because we really want to!
 
 				.row
 					.six.columns
@@ -59,6 +83,7 @@ html(land="en")
 							li: a(href="") Facebook
 							li: a(href="") Twitter
 							li: a(href="") Email
+
 
 	script(src="/js/jquery-2.1.3.min.js")
 	script(src="/js/functions.js")
