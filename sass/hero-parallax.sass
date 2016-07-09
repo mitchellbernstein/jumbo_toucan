@@ -1,70 +1,96 @@
 // Hero Parallax
 
+
 .hero-box
 	position: relative //Tells children this is the anchor
 	height: 700px
 	background:
-		// color: transparentize(white, 0.1)
+		color: #06092D
+		//color: transparentize(white, 0.1)
 		size: auto 600px //Width = auto, height = 600px fixed
 		position: top center
-	max-width: 1100px
-	margin: 5% auto
+	max-width: 100vw
+	margin: 0 auto
+	margin-bottom: 200px
+	overflow: hidden
 
-	.h1
-		height: 200px
-		width: 100%
-		background:
-			image: url(/images/cycles-h1.svg)
-			position: left
-			repeat: no-repeat
-		position: absolute
-		left: 0%
-		top: 210px //From inside .bird-box container
-		margin-top: -60px
-		z-index: 5
+	// .h1
+	// 	height: 200px
+	// 	width: 100%
+	// 	background:
+	// 		image: url(/images/cycles-h1.svg)
+	// 		position: left
+	// 		repeat: no-repeat
+	// 	position: absolute
+	// 	left: 0%
+	// 	top: 210px //From inside .bird-box container
+	// 	margin-top: -60px
+	// 	z-index: 5
 
 	.watch-1
-		height: 540px
-		width: 401px
+		height: 648px
+		width: 100%
 		background:
 			image: url(/images/watch1_a.png)
+			repeat: no-repeat
+			//color: red
+			position: center
 		position: absolute //Inside .bird-box container
-		right: 0% // Top left corner is 0,0b anchor point, aligns to .bird-box
-		//margin-left: -480px
-		top: 30px
-		z-index: 4
-
+		bottom: -260px
+		z-index: 6
 	.shape-1
-		height: 481px
-		width: 660px
+		height: 960px
+		width: 960px
 		background:
 			image: url(/images/shape-1.svg)
 		position: absolute //Inside .bird-box container
-		right: 5% // Top left corner is 0,0b anchor point, aligns to .bird-box
+		right: 50% // Top left corner is 0,0b anchor point, aligns to .bird-box
 		margin-left: -230px
-		//top: 380px
-		z-index: 3
-
+		top: 600px
+		z-index: 1
 	.shape-2
-		height: 110px
-		width: 110px
+		height: 271px
+		width: 271px
 		background:
 			image: url(/images/shape-2.svg)
+			repeat: no-repeat
 		position: absolute //Inside .bird-box container
-		left: 40% // Top left corner is 0,0b anchor point, aligns to .bird-box
-		margin-left: -230px
-		top: 50%
-		z-index: 2
-
+		right: 55% // Top left corner is 0,0b anchor point, aligns to .bird-box
+		margin-left: 0px
+		top: 70%
+		z-index: 5
 	.shape-3
-		height: 10px
-		width: 80px
+		height: 187px
+		width: 187px
 		background:
-			color: #20C907
+			image: url(/images/shape-3.svg)
+			repeat: no-repeat
 		position: absolute //Inside .bird-box container
-		left: 20% // Top left corner is 0,0b anchor point, aligns to .bird-box
+		left: 60% 
+		margin-right: 210px
+		top: 50%
+		z-index: 5
+	.shape-4
+		height: 518px
+		width: 518px
+		background:
+			image: url(/images/shape-4.svg)
+			repeat: no-repeat
+		position: absolute //Inside .bird-box container
+		left: 64% 
 		margin-left: -210px
-		top: 12%
+		top: 90%
+		z-index: 5
+	.shape-5
+		height: 1008px
+		width: 1008px
+		background:
+			image: url(/images/shape-5.svg)
+			repeat: no-repeat
+		position: absolute //Inside .bird-box container
+		left: 60% 
+		margin-left: -210px
+		top: 60%
 		z-index: 1
 
 

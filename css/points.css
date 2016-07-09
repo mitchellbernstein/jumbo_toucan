@@ -1,0 +1,11 @@
+.watch-point {
+  display: flex; }
+  .watch-point img {
+    margin: 0 auto;
+    clear: both; }
+  .watch-point h3 {
+    clear: both;
+    display: block; }
+
+.center {
+  text-align: center; }
