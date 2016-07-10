@@ -14,6 +14,13 @@
   font-family: yuzu;
   src: url(/fonts/yuzu-regular.otf);
   font-weight: normal; }
+h1 {
+  font-family: yuzu;
+  font-weight: bold;
+  font-size: 72px;
+  color: #FFFFFF;
+  letter-spacing: -3px; }
+
 h2 {
   font-family: yuzu;
   font-weight: bold;
@@ -39,8 +46,15 @@ h5 {
   letter-spacing: -0.42px;
   line-height: 48px; }
 
+.caption {
+  font-family: yuzu;
+  font-size: 28px;
+  color: #CFD2F2;
+  letter-spacing: -0.59px;
+  line-height: 32px; }
+
 .p-1 {
-  font-family: "yuzu";
+  font-family: "yuzu", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 48px;
@@ -50,7 +64,8 @@ h5 {
   margin-bottom: 60px; }
 
 .p-2 {
-  font-family: SofiaProSoftRegular;
+  font-family: "yuzu", sans-serif;
+  font-weight: normal;
   font-size: 20px;
   color: #C8CBE2;
   letter-spacing: -0.42px;
@@ -58,19 +73,36 @@ h5 {
   margin-bottom: 80px; }
 
 .p-2.blue {
-  color: #181F65;
+  color: #6B6E8D;
   margin-bottom: 90px; }
 
 .hero-box {
   position: relative;
-  height: 700px;
-  background-color: #06092D;
+  height: 900px;
+  background-color: #090C37;
   background-size: auto 600px;
   background-position: top center;
   max-width: 100vw;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 140px;
   overflow: hidden; }
+  .hero-box h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px; }
+  .hero-box .caption {
+    text-align: center;
+    max-width: 520px;
+    margin: 0 auto;
+    z-index: 10; }
+  .hero-box form {
+    max-width: 516px;
+    margin-top: 60px; }
+    .hero-box form input {
+      font-family: "yuzu", sans-serif;
+      font-weight: normal;
+      font-size: 20px;
+      border-style: none; }
   .hero-box .watch-1 {
     height: 648px;
     width: 100%;
@@ -133,24 +165,26 @@ h5 {
 .nav {
   display: flex;
   max-width: 1228px;
-  padding: 0px 64px 0px 64px;
+  padding: 0px 40px 0px 40px;
   margin: 0 auto; }
   .nav .logo {
-    font-family: SofiaProSoftBold;
+    font-family: "yuzu", sans-serif;
+    font-weight: bold;
     font-size: 24px;
     color: #181F65;
     letter-spacing: -0.51px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 0;
     -webkit-align-self: flex-start;
     align-self: flex-start; }
   .nav .nav-items {
-    font-family: ProximaNovaSoft-Regular;
+    font-family: "yuzu", sans-serif;
+    font-weight: normal;
     font-size: 18px;
     color: #181F65;
     letter-spacing: -0.38px;
-    line-height: 40px;
-    margin-top: 30px;
+    line-height: 20px;
+    margin-top: 20px;
     margin-left: auto;
     list-style: none;
     margin-bottom: 0;
@@ -164,8 +198,7 @@ h5 {
         color: #181F65;
         text-decoration: none; }
       .nav .nav-items li a:hover {
-        background-color: green;
-        color: #181F65;
+        color: #4B5EBA;
         text-decoration: none; }
 
 .content-group {
@@ -190,7 +223,11 @@ h5 {
 
 form {
   max-width: 516px;
-  margin: 100px auto 100px auto; }
+  margin: 10px auto 100px auto; }
+  form Input {
+    font-family: "yuzu", sans-serif;
+    font-weight: normal;
+    font-size: 20px; }
 
 .watch-point {
   display: flex; }
@@ -203,6 +240,8 @@ form {
 
 .center {
   text-align: center; }
+  .center .p-2.blue {
+    text-align: left; }
 
 .blue-bg {
   padding: 140px 0;

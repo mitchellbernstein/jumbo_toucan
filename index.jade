@@ -18,13 +18,19 @@ html(land="en")
 					p Jumbo Toucan
 
 				ul.nav-items
-					li: a(href="") Cycles
-					li: a(href="") Profile
+					li: a(href="#points-anchor") Cycles
+					li: a(href="#profile-anchor") Profile
 					//li: a(href="") Blog
-					li: a(href="") Contact
+					li: a(href="mailto:hi@jumbotoucan.com") Contact
 
 			.hero-box
-				.h1
+				h1 Cycles
+				.caption Create meaningful notifications and take control over your schedule.
+				form.row
+					.columns.eight
+						input.u-full-width(type="email" placeholder="Email me when it's ready")
+					.columns.four
+						input.button-primary.u-full-width(type="submit" value="Signup")
 				.watch-1
 				.shape-1
 				.shape-2
@@ -33,6 +39,7 @@ html(land="en")
 				.shape-5
 
 			.container
+				#points-anchor
 				.points.row
 					.columns.six
 						#point-1
@@ -68,10 +75,11 @@ html(land="en")
 					.columns.eight
 						input.u-full-width(type="email" placeholder="Email me when it's ready")
 					.columns.four
-						input.button-primary.u-full-width(type="submit" )
+						input.button-primary.u-full-width(type="submit")
 			.blue-bg
+				#profile-anchor
 				.container.row
-					.shape-4.box.row
+					.shape-4.row
 					h2.white.row Made by
 				.container.row
 					.columns.six
@@ -85,6 +93,7 @@ html(land="en")
 
 		footer
 			.container
+				#contact-anchor
 				.shape-4
 				h2.blue.row Contact
 				.p-1.row Jumbo Toucan is a tiny duo studio. We make things because we really want to!

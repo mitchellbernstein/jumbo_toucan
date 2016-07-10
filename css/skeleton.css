@@ -264,8 +264,8 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
+  border-radius: 8px;
+  border: 2px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; }
 
@@ -289,8 +289,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #C8CBE2;
+  border-color: #C8CBE2; }
 
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -303,8 +303,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #4B5EBA;
+  border-color: #4B5EBA; }
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -318,13 +318,14 @@ input[type="password"],
 textarea,
 select {
   height: 64px;
-  padding: 6px 10px;
+  padding: 0px 0px 0px 20px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
+  border: 2px solid #C8CBE2;
+  border-radius: 8px;
   box-shadow: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  color: #979BB8; }
 
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
@@ -353,8 +354,9 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0; }
+  border: 2px solid #4B5EBA;
+  outline: 0;
+  color: #06092D; }
 
 label,
 legend {
@@ -406,7 +408,7 @@ code {
   white-space: nowrap;
   background: #FFFFFF;
   border: 1px solid #E1E1E1;
-  border-radius: 4px; }
+  border-radius: 1px; }
 
 pre > code {
   display: block;
