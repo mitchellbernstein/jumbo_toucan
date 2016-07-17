@@ -98,6 +98,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/New_Watch@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 691132,
+		"inputAbbreviatedPath": "\/images\/New_Watch@2x.png",
+		"outputAbbreviatedPath": "\/images\/New_Watch@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/point-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -182,17 +193,6 @@
 		"initialSize": 161014,
 		"inputAbbreviatedPath": "\/images\/watch1_a.png",
 		"outputAbbreviatedPath": "\/images\/watch1_a.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/watch1_a@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 691132,
-		"inputAbbreviatedPath": "\/images\/watch1_a@2x.png",
-		"outputAbbreviatedPath": "\/images\/watch1_a@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
