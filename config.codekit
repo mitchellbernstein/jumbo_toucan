@@ -87,6 +87,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/New_Watch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 215530,
+		"inputAbbreviatedPath": "\/images\/New_Watch.png",
+		"outputAbbreviatedPath": "\/images\/New_Watch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/point-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -94,6 +105,72 @@
 		"initialSize": 15935,
 		"inputAbbreviatedPath": "\/images\/point-1.png",
 		"outputAbbreviatedPath": "\/images\/point-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/point1-img-1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12253,
+		"inputAbbreviatedPath": "\/images\/point1-img-1x.png",
+		"outputAbbreviatedPath": "\/images\/point1-img-1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/point1-img-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28221,
+		"inputAbbreviatedPath": "\/images\/point1-img-2x.png",
+		"outputAbbreviatedPath": "\/images\/point1-img-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/point2-img-1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16104,
+		"inputAbbreviatedPath": "\/images\/point2-img-1x.png",
+		"outputAbbreviatedPath": "\/images\/point2-img-1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/point2-img-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36741,
+		"inputAbbreviatedPath": "\/images\/point2-img-2x.png",
+		"outputAbbreviatedPath": "\/images\/point2-img-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/point4-img-1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12120,
+		"inputAbbreviatedPath": "\/images\/point4-img-1x.png",
+		"outputAbbreviatedPath": "\/images\/point4-img-1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/point4-img-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28421,
+		"inputAbbreviatedPath": "\/images\/point4-img-2x.png",
+		"outputAbbreviatedPath": "\/images\/point4-img-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -108,6 +185,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/images\/watch1_a@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 691132,
+		"inputAbbreviatedPath": "\/images\/watch1_a@2x.png",
+		"outputAbbreviatedPath": "\/images\/watch1_a@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.jade": {
 		"compileDebug": 1,

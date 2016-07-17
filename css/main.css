@@ -81,7 +81,8 @@ h5 {
   max-width: 100vw;
   margin: 0 auto;
   margin-bottom: 140px;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 0px 40px 0px 40px; }
   .hero-box h1 {
     width: 100%;
     text-align: center;
@@ -102,7 +103,7 @@ h5 {
   .hero-box .watch-1 {
     height: 648px;
     width: 100%;
-    background-image: url(/images/watch1_a.png);
+    background-image: url(/images/New_Watch.png);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -230,32 +231,70 @@ form {
   .watch-point img {
     margin: 0 auto;
     clear: both; }
-  .watch-point h3 {
-    clear: both;
-    display: block; }
 
 .center {
   text-align: center; }
   .center .p-2.blue {
     text-align: left; }
+  .center .point-1-img {
+    width: 100%;
+    height: 248px;
+    background-image: url(/images/point1-img-1x.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .center .point-2-img {
+    width: 100%;
+    height: 248px;
+    background-image: url(/images/point2-img-1x.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .center .point-3-img {
+    width: 100%;
+    height: 248px;
+    background-image: url(/images/point-1.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .center .point-4-img {
+    width: 100%;
+    height: 248px;
+    background-image: url(/images/point4-img-1x.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .center h3 {
+    clear: both;
+    display: block;
+    margin-top: 30px; }
 
 .blue-bg {
   padding: 140px 0;
   background-color: #181F65;
   width: 100%; }
+  .blue-bg .container h2.white {
+    color: #FFFFFF;
+    margin-bottom: 40px; }
 
-.container h2.white {
-  color: #FFFFFF;
-  margin-bottom: 100px; }
-.container .columns.six .profile-img {
-  height: 477px;
-  width: 100%;
-  background-image: url(/images/mb.png);
-  background-color: green;
-  background-repeat: no-repeat;
-  background-size: cover; }
-.container .columns.six h3 {
-  padding-top: 40px; }
+.made-flex {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0px 40px;
+  display: flex;
+  -webkit-display: flex;
+  justify-content: space-between; }
+  .made-flex .child {
+    max-width: 520px; }
+    .made-flex .child img {
+      width: 100%;
+      margin-bottom: 40px; }
+  .made-flex .child-1 {
+    margin-right: 30px; }
+    .made-flex .child-1 .profile-img {
+      max-height: 520px;
+      width: 100%;
+      background-image: url(/images/mb.png);
+      background-color: green;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
 
 footer {
   background: #FFFFFF;
