@@ -1,0 +1,56 @@
+// Navigation
+
+.nav{
+	//background-color: transparentize(green, 0.5);
+	display: flex;
+	max-width: 1228px;
+	padding: 0px 40px 0px 40px;
+	margin: 0 auto;
+	//background-color: red;
+
+	.logo{
+		//background-color: transparentize(pink, 0.6);
+		font-family: "yuzu", sans-serif;
+		font-weight: bold;
+		font-size: 24px;
+		color: #181F65;
+		letter-spacing: -0.51px;
+		margin-top: 20px;
+		margin-bottom: 0;
+		-webkit-align-self: flex-start;
+		align-self: flex-start;
+		//line-height: 0px;
+	}
+	.nav-items{
+		//background-color: transparentize(pink, 0.6);
+		font-family: "yuzu", sans-serif;
+		font-weight: normal;
+		font-size: 18px;
+		color: #181F65;
+		letter-spacing: -0.38px;
+		line-height: 20px;
+		margin-top: 20px;
+		margin-left: auto;
+		list-style: none;
+		margin-bottom: 0;
+		display: flex;
+
+		li{
+			margin-left: 50px;
+			color: #181F65;
+			text-decoration: none;
+			line-height: 40px;
+
+			a:link{
+				//background-color: red;
+				color: #181F65;
+				text-decoration: none;
+			}
+			a:hover{
+				//background-color: green;
+				color: #4B5EBA;
+				text-decoration: none;
+			}
+		}
+	}
+}

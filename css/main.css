@@ -103,12 +103,18 @@ h5 {
   .hero-box .watch-1 {
     height: 648px;
     width: 100%;
-    background-image: url(/images/New_Watch.png);
+    background-image: url("/images/New_Watch.png");
+    background-size: 648px 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
     bottom: -260px;
     z-index: 6; }
+    @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+      .hero-box .watch-1 {
+        background-image: url("/images/New_Watch@2x.png"); } }
   .hero-box .shape-1 {
     height: 960px;
     width: 960px;
@@ -122,7 +128,7 @@ h5 {
     height: 271px;
     width: 271px;
     background-image: url(/images/shape-2.svg);
-    background-repeat: no-repeat;
+    repeat: no-repeat;
     position: absolute;
     right: 55%;
     margin-left: 0px;
@@ -221,7 +227,7 @@ h5 {
 form {
   max-width: 516px;
   margin: 10px auto 100px auto; }
-  form Input {
+  form input {
     font-family: "yuzu", sans-serif;
     font-weight: normal;
     font-size: 20px; }

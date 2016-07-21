@@ -1,0 +1,17 @@
+// Import all other pieces
+
+@import "text";
+@import "hero-parallax";
+@import "navigation";
+@import "content-parallax";
+@import "input";
+@import "points";
+@import "madeby";
+@import "footer";
+
+.spacer{
+	background-color: #FFFFFF;
+}
+body{
+	background-color: white;
+}

@@ -1,0 +1,23 @@
+.content-group{
+	position: relative; //Tells children this is the anchor
+	height: 100vh;
+	background-color: transparentize(red, 0.95);
+	background-size: auto 600px; //Width = auto, height = 600px fixed
+	background-position: top center;
+	max-width: 1100px;
+	margin: 5% auto;
+
+	.h1{
+		height: 200px;
+		width: 100%;
+		background-image: url(/images/cycles-h1.svg);
+		background-position: left;
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 0%;
+		top: 500px;
+		margin-top: -60px;
+		z-index: 5;
+
+	}
+}
