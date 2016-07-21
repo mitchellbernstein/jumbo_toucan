@@ -120,68 +120,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/point1-img-1x.png": {
+	"\/images\/point1-img.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 12253,
-		"inputAbbreviatedPath": "\/images\/point1-img-1x.png",
-		"outputAbbreviatedPath": "\/images\/point1-img-1x.png",
+		"inputAbbreviatedPath": "\/images\/point1-img.png",
+		"outputAbbreviatedPath": "\/images\/point1-img.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/point1-img-2x.png": {
+	"\/images\/point1-img@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 28221,
-		"inputAbbreviatedPath": "\/images\/point1-img-2x.png",
-		"outputAbbreviatedPath": "\/images\/point1-img-2x.png",
+		"inputAbbreviatedPath": "\/images\/point1-img@2x.png",
+		"outputAbbreviatedPath": "\/images\/point1-img@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/point2-img-1x.png": {
+	"\/images\/point2-img.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 16104,
-		"inputAbbreviatedPath": "\/images\/point2-img-1x.png",
-		"outputAbbreviatedPath": "\/images\/point2-img-1x.png",
+		"inputAbbreviatedPath": "\/images\/point2-img.png",
+		"outputAbbreviatedPath": "\/images\/point2-img.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/point2-img-2x.png": {
+	"\/images\/point2-img@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 36741,
-		"inputAbbreviatedPath": "\/images\/point2-img-2x.png",
-		"outputAbbreviatedPath": "\/images\/point2-img-2x.png",
+		"inputAbbreviatedPath": "\/images\/point2-img@2x.png",
+		"outputAbbreviatedPath": "\/images\/point2-img@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/point4-img-1x.png": {
+	"\/images\/point4-img.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 12120,
-		"inputAbbreviatedPath": "\/images\/point4-img-1x.png",
-		"outputAbbreviatedPath": "\/images\/point4-img-1x.png",
+		"inputAbbreviatedPath": "\/images\/point4-img.png",
+		"outputAbbreviatedPath": "\/images\/point4-img.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/point4-img-2x.png": {
+	"\/images\/point4-img@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 28421,
-		"inputAbbreviatedPath": "\/images\/point4-img-2x.png",
-		"outputAbbreviatedPath": "\/images\/point4-img-2x.png",
+		"inputAbbreviatedPath": "\/images\/point4-img@2x.png",
+		"outputAbbreviatedPath": "\/images\/point4-img@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

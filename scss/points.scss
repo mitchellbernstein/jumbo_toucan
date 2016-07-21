@@ -1,3 +1,24 @@
+//4 Points
+
+//http://ryanbenhase.com/easily-implement-2x-retina-background-images/
+@mixin background-2x($path, $ext: "png", $w: auto, $h: auto, $pos: left top, $repeat: no-repeat) {
+
+  $at1x_path: "#{$path}.#{$ext}";
+  $at2x_path: "#{$path}@2x.#{$ext}";
+ 
+  background-image: url("#{$at1x_path}");
+  background-size: $w $h;
+  background-position: $pos;
+  background-repeat: $repeat;
+ 
+  @media all and (-webkit-min-device-pixel-ratio : 1.5),
+  all and (-o-min-device-pixel-ratio: 3/2),
+  all and (min--moz-device-pixel-ratio: 1.5),
+  all and (min-device-pixel-ratio: 1.5) {
+    background-image: url("#{$at2x_path}"); 
+  }
+}
+
 .watch-point{
 	//background-color: green
 	display: flex;
@@ -13,35 +34,39 @@
 	.p-2.blue{
 		text-align: left;
 	}
+
+	//background-image: url(/images/New_Watch.png);
+	//	@include background-2x("/images/New_Watch", "png", 648px, 100%);
 	.point-1-img{
 		width: 100%;
 		height: 248px;
-		background-image: url(/images/point1-img-1x.png);
-		//background-color: red;
+		background-image: url(/images/point1-img.png);
+		@include background-2x("/images/point1-img", "png", 210px, 100%);
 		background-repeat: no-repeat;
 		background-position: center;
+		//background-color: red;
 	}
 	.point-2-img{
 		width: 100%;
 		height: 248px;
-		background-image: url(/images/point2-img-1x.png);
-		//background-color: red;
+		background-image: url(/images/point2-img.png);
+		@include background-2x("/images/point2-img", "png", 210px, 100%);
 		background-repeat: no-repeat;
 		background-position: center;
 	}
 	.point-3-img{
 		width: 100%;
 		height: 248px;
-		background-image: url(/images/point-1.png);
-		//background-color: red;
+		background-image: url(/images/point2-img.png);
+		@include background-2x("/images/point2-img", "png", 210px, 100%);
 		background-repeat: no-repeat;
 		background-position: center;
 	}
 	.point-4-img{
 		width: 100%;
 		height: 248px;
-		background-image: url(/images/point4-img-1x.png);
-		//background-color: red;
+		background-image: url(/images/point4-img.png);
+		@include background-2x("/images/point4-img", "png", 210px, 100%);
 		background-repeat: no-repeat;
 		background-position: center;
 	}
