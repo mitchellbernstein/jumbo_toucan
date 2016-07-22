@@ -15,66 +15,138 @@
 	src: url(/fonts/yuzu-regular.otf);
 	font-weight: normal;
 }
-h1{
-	font-family: "yuzu", sans-serif;
-	font-weight: bold;
-	font-size: 72px;
-	color: #FFFFFF;
-	letter-spacing: -3px;
+
+@media screen and (min-width: $min-large){
+
+	h1{
+		font-family: "yuzu", sans-serif;
+		font-weight: bold;
+		font-size: 72px;
+		color: #FFFFFF;
+		letter-spacing: -3px;
+	}
+	h2{
+		font-family: "yuzu", sans-serif;
+		font-weight: bold;
+		font-size: 80px;
+		color: #181F65;
+		letter-spacing: -3px;
+	}
+	h3{
+		font-family: "yuzu", sans-serif;
+		font-weight: bold;
+		font-size: 32px;
+		color: #FFFFFF;
+		letter-spacing: -0.67px;
+		line-height: 32px;
+	}
+	h3.blue{
+		color: #181F65;
+	}
+	h5{
+		font-family: "yuzu", sans-serif;
+		font-size: 20px;
+		color: #9DA1B8;
+		letter-spacing: -0.42px;
+		line-height: 48px;
+	}
+	.caption{
+		font-family: "hind", sans-serif;
+		font-size: 28px;
+		color: #CFD2F2;
+		letter-spacing: -0.59px;
+		line-height: 32px;
+	}
+	.p-1{
+		font-family: "hind", sans-serif;
+		//"yuzu", sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 28px;
+		color: #9DA1B8;
+		letter-spacing: -1px;
+		line-height: 40px;
+		margin-bottom: 60px;
+	}
+	.p-2{
+		font-family: "hind", sans-serif;
+		font-weight: normal;
+		font-size: 18px;
+		color: #C8CBE2;
+		letter-spacing: -0.42px;
+		line-height: 26px;
+		margin-bottom: 80px;
+	}
+	.p-2.blue{
+		color: #6B6E8D;
+		margin-bottom: 90px;
+	}
 }
-h2{
-	font-family: "yuzu", sans-serif;
-	font-weight: bold;
-	font-size: 80px;
-	color: #181F65;
-	letter-spacing: -3px;
-}
-h3{
-	font-family: "yuzu", sans-serif;
-	font-weight: bold;
-	font-size: 32px;
-	color: #FFFFFF;
-	letter-spacing: -0.67px;
-	line-height: 32px;
-}
-h3.blue{
-	color: #181F65;
-}
-h5{
-	font-family: "yuzu", sans-serif;
-	font-size: 20px;
-	color: #9DA1B8;
-	letter-spacing: -0.42px;
-	line-height: 48px;
-}
-.caption{
-	font-family: "hind", sans-serif;
-	font-size: 28px;
-	color: #CFD2F2;
-	letter-spacing: -0.59px;
-	line-height: 32px;
-}
-.p-1{
-	font-family: "hind", sans-serif;
-	//"yuzu", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 28px;
-	color: #9DA1B8;
-	letter-spacing: -1px;
-	line-height: 40px;
-	margin-bottom: 60px;
-}
-.p-2{
-	font-family: "hind", sans-serif;
-	font-weight: normal;
-	font-size: 18px;
-	color: #C8CBE2;
-	letter-spacing: -0.42px;
-	line-height: 26px;
-	margin-bottom: 80px;
-}
-.p-2.blue{
-	color: #6B6E8D;
-	margin-bottom: 90px;
+
+@media screen and (max-width: $max-small){
+
+	h1{
+		font-family: "yuzu", sans-serif;
+		font-weight: bold;
+		font-size: 72px;
+		color: #FFFFFF;
+		letter-spacing: -3px;
+	}
+	h2{
+		font-family: "yuzu", sans-serif;
+		font-weight: bold;
+		font-size: 48px;
+		color: #181F65;
+		letter-spacing: -3px;
+	}
+	h3{
+		font-family: "yuzu", sans-serif;
+		font-weight: bold;
+		font-size: 32px;
+		color: #FFFFFF;
+		letter-spacing: -0.67px;
+		line-height: 32px;
+	}
+	h3.blue{
+		color: #181F65;
+	}
+	h5{
+		font-family: "yuzu", sans-serif;
+		font-size: 20px;
+		color: #9DA1B8;
+		letter-spacing: -0.42px;
+		line-height: 48px;
+	}
+	.caption{
+		font-family: "hind", sans-serif;
+		font-size: 28px;
+		color: #CFD2F2;
+		letter-spacing: -0.59px;
+		line-height: 32px;
+	}
+	.p-1{
+		font-family: "hind", sans-serif;
+		//"yuzu", sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 22px;
+		color: #9DA1B8;
+		letter-spacing: -1px;
+		line-height: 32px;
+		margin-bottom: 60px;
+	}
+	.p-2{
+		font-family: "hind", sans-serif;
+		font-weight: normal;
+		font-size: 18px;
+		color: #C8CBE2;
+		letter-spacing: -0.42px;
+		line-height: 26px;
+		margin-bottom: 80px;
+	}
+	.p-2.blue{
+		color: #6B6E8D;
+		margin-bottom: 90px;
+	}
+
 }

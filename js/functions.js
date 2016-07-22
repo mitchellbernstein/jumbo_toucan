@@ -32,15 +32,15 @@ $(window).scroll(function(){
 		"transform" : "translate(0px, -"+ wScroll /320 +"%)"
 	});
 
-	//Look at how far .cloths-pics is from the top of the DOM
-	if(wScroll > $(".clothes-pics").offset().top - ($(window).height() / 1.2)) {
-		// Every element inside .cloths-pics will run this funciton
-		$(".clothes-pics figure").each(function(i) {
-			setTimeout(function(){
-				$(".clothes-pics figure").eq(i).addClass("is-showing");
-			}, 150 * (i+1));
-		});
-	}
+// 	//Look at how far .cloths-pics is from the top of the DOM
+// 	if(wScroll > $(".clothes-pics").offset().top - ($(window).height() / 1.2)) {
+// 		// Every element inside .cloths-pics will run this funciton
+// 		$(".clothes-pics figure").each(function(i) {
+// 			setTimeout(function(){
+// 				$(".clothes-pics figure").eq(i).addClass("is-showing");
+// 			}, 150 * (i+1));
+// 		});
+// 	}
 
 });
 
