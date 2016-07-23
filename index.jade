@@ -3,7 +3,7 @@ html(land="en")
 
 	head
 
-		title Jumbo Toucan — Cycles
+		title Jumbo Toucan &#8211; Cycles
 		meta(name="description", content="")
 		meta(name="author", content="")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
@@ -12,25 +12,37 @@ html(land="en")
 		link(rel="stylesheet", href="css/main.css")
 
 	body
-		
-			.nav
+		.nav
 				.logo
 					p Jumbo Toucan
 
 				ul.nav-items
 					li: a(href="#points-anchor") Cycles
 					li: a(href="#profile-anchor") Profile
-					//li: a(href="") Blog
 					li: a(href="mailto:hi@jumbotoucan.com") Contact
 
 			.hero-box
 				h1 Cycles
 				.caption Create meaningful notifications and take control over your schedule.
-				form.row
-					.columns.eight
-						input.u-full-width(type="email" placeholder="Email me when it's ready")
-					.columns.four
-						input.button-primary.u-full-width(type="submit" value="Signup")
+				
+				//Begin MailChimp Signup Form
+				#mc_embed_signup
+					form(action="//jumbotoucan.us13.list-manage.com/subscribe/post?u=05587514275d5b56b3637b5ba&amp;id=9adf6d0c42" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate)
+						#mc_embed_signup_scroll
+							.mc-field-group
+								input#mce-EMAIL.required.email(type="email" value="" placeholder="Email me when it\'s ready" name="EMAIL")
+
+								#mce-responses.clear
+									#mce-error-response.response(style="display:none")
+									#mce-success-response.response(style="display:none")
+
+								div(style="position: absolute; left: -5000px;" aria-hidden="true")
+									input(type="text" name="b_05587514275d5b56b3637b5ba_9adf6d0c42" tabindex="-1" value="")
+								.clear
+									input#mc-embedded-subscribe.button(type="submit" value="Subscribe" name="Subscribe")
+
+				//End mc_embed_signup
+
 				.watch-1
 				.shape-1
 				.shape-2
@@ -43,54 +55,46 @@ html(land="en")
 				.points.row
 					.columns.six
 						.center
-							.point-1-img
+							.point-img.goals
 							h3.blue Your Goals
-							.p-2.blue Sometimes we're forgetful and sometimes we just need a little motivation. Whatever the purpose, Cycles helps you reach those goals with an easy to use interface.
+							.paragraph-2.blue Sometimes we're forgetful and sometimes we just need a little motivation. Whatever the purpose, Cycles helps you reach those goals with an easy to use interface.
 					.columns.six
 						.center
-							.point-2-img
-							h3.blue Stand Alone Watch App
-							.p-2.blue Most apps need to be configured on your iPhone. Not Cycles! Any feature can be used directly on your Watch without the interference of another device.
+							.point-img.no-iphone
+							h3.blue Stand Alone App
+							.paragraph-2.blue Most apps need to be configured on your iPhone. Not Cycles! Any feature can be used directly on your Watch without the interference of another device.
 				.points.row
 					.columns.six
 						.center
-							.point-3-img
+							.point-img.rewards
 							h3.blue Get Rewarded
-							.p-2.blue Finishing your cycles means you deserve an award. The more cycles you complete, the more trophies you rack up. Who doesn't like trophies, #AmIRight?
+							.paragraph-2.blue Finishing your cycles means you deserve an award. The more cycles you complete, the more trophies you rack up. Who doesn't like trophies, #AmIRight?
 					.columns.six
 						.center
-							.point-4-img
+							.point-img.native
 							h3.blue Native Interface
-							.p-2.blue There's absolutely no learning curve to using Cycles because everything we designed is meant to be farmiliar to you. Just start up the app on your wrist and tap away!
+							.paragraph-2.blue There's absolutely no learning curve to using Cycles because everything we designed is meant to be farmiliar to you. Just start up the app on your wrist and tap away!
 
-				form.row
-					.columns.eight
-						input.u-full-width(type="email" placeholder="Email me when it's ready")
-					.columns.four
-						input.button-primary.u-full-width(type="submit" value="Signup")
 			.blue-bg
 				#profile-anchor
 				.container.row
-					.shape-4.row
 					h2.white.row Made by
 
-
-				.made-flex
-					.child.child-1
-						img(src="/images/mb.png" alt="Mitchell Bernstein's face")
+				.people
+					.developer
+						img(src="/images/alec.png" alt="Mitchell Bernstein's face")
 						h3 Alec Dilanchian
-						.p-2 By day, he's a developer. By night, he's still a developer. In fact, he codes better when the moon rises. Alec understands code so well, he can do it blindfolded and hands tied behind is back.
-					.child
-						img(src="/images/mb.png" alt="Mitchell Bernstein's face")
+						.paragraph-2 By day, he's a developer. By night, he's still a developer. In fact, he codes better when the moon rises. Alec understands code so well, he can do it blindfolded and hands tied behind is back.
+					.designer
+						img(src="/images/mitch.png" alt="Mitchell Bernstein's face")
 						h3 Mitchell Bernstein
-						.p-2 This taco chewer can go through 1000 iterations of a design before the sun rises. Mitch specializes in product design of digital things, making sure the experience seemless.
+						.paragraph-2 This taco chewer can go through 1000 iterations of a design before the sun rises. Mitch specializes in product design of digital things, making sure the experience seemless.
 
 		footer
 			.container
 				#contact-anchor
-				.shape-4
 				h2.blue.row Contact
-				.p-1.row Jumbo Toucan is a tiny duo studio based in Orlando, Florida. If you enjoy what we make, feel free to reach out to us!
+				.paragraph-1.row Jumbo Toucan is a tiny duo studio based in Orlando, Florida. If you enjoy what we make, feel free to reach out to us!
 
 				.row
 					.six.columns
@@ -106,6 +110,6 @@ html(land="en")
 							li: a(href="") Twitter
 							li: a(href="") Email
 
-
-	script(src="/js/jquery-2.1.3.min.js")
-	script(src="/js/functions.js")
+		script(src="/js/jquery-2.1.3.min.js")
+		script(src="/js/functions.js")
+		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>

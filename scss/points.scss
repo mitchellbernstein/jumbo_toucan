@@ -31,51 +31,42 @@
 			//background-color: red;
 		}
 	}
-	.center{
+	.center {
 		text-align: center;
-		.p-2.blue{
+		.paragraph-2.blue {
 			text-align: left;
 		}
 
-		//background-image: url(/images/New_Watch.png);
-		//	@include background-2x("/images/New_Watch", "png", 648px, 100%);
-		.point-1-img{
+		.point-img {
 			width: 100%;
 			height: 248px;
-			background-image: url(/images/point1-img.png);
-			@include background-2x("/images/point1-img", "png", 210px, 100%);
 			background-repeat: no-repeat;
-			background-position: center;
-			//background-color: red;
-		}
-		.point-2-img{
-			width: 100%;
-			height: 248px;
-			background-image: url(/images/point2-img.png);
-			@include background-2x("/images/point2-img", "png", 210px, 100%);
-			background-repeat: no-repeat;
-			background-position: center;
-		}
-		.point-3-img{
-			width: 100%;
-			height: 248px;
-			background-image: url(/images/point2-img.png);
-			@include background-2x("/images/point2-img", "png", 210px, 100%);
-			background-repeat: no-repeat;
-			background-position: center;
-		}
-		.point-4-img{
-			width: 100%;
-			height: 248px;
-			background-image: url(/images/point4-img.png);
-			@include background-2x("/images/point4-img", "png", 210px, 100%);
-			background-repeat: no-repeat;
-			background-position: center;
-		}
-		h3{
-			clear: both;
-			display: block;
-			margin-top: 30px;
+			margin-bottom: 20px;
+
+			&.goals {
+				background-image: url(/images/point1-img.png);
+				@include background-2x("/images/point1-img@2x", "png", 210px, 100%);
+			}
+
+			&.no-iphone {
+				background-image: url(/images/point2-img.png);
+				@include background-2x("/images/point2-img@2x", "png", 210px, 100%);
+			}
+
+			&.rewards {
+				background-image: url(/images/point1-img.png);
+				@include background-2x("/images/point1-img@2x", "png", 210px, 100%);
+			}
+
+			&.native {
+				background-image: url(/images/point2-img.png);
+				@include background-2x("/images/point2-img@2x", "png", 210px, 100%);
+			}
+
+			&.goals, &.no-iphone, &.rewards, &.native {
+				background-position: center;
+			}
+
 		}
 
 	}
@@ -102,45 +93,36 @@
 			line-height: 32px;
 		}
 
-		//background-image: url(/images/New_Watch.png);
-		//	@include background-2x("/images/New_Watch", "png", 648px, 100%);
-		.point-1-img{
+		.point-img {
 			width: 100%;
 			height: 248px;
-			background-image: url(/images/point1-img.png);
-			@include background-2x("/images/point1-img", "png", 210px, 100%);
 			background-repeat: no-repeat;
-			background-position: center;
-			//background-color: red;
-		}
-		.point-2-img{
-			width: 100%;
-			height: 248px;
-			background-image: url(/images/point2-img.png);
-			@include background-2x("/images/point2-img", "png", 210px, 100%);
-			background-repeat: no-repeat;
-			background-position: center;
-		}
-		.point-3-img{
-			width: 100%;
-			height: 248px;
-			background-image: url(/images/point2-img.png);
-			@include background-2x("/images/point2-img", "png", 210px, 100%);
-			background-repeat: no-repeat;
-			background-position: center;
-		}
-		.point-4-img{
-			width: 100%;
-			height: 248px;
-			background-image: url(/images/point4-img.png);
-			@include background-2x("/images/point4-img", "png", 210px, 100%);
-			background-repeat: no-repeat;
-			background-position: center;
-		}
-		h3{
-			clear: both;
-			display: block;
-			margin-top: 30px;
+			margin-bottom: 20px;
+
+			&.goals {
+				background-image: url(/images/point1-img.png);
+				@include background-2x("/images/point1-img@2x", "png", 210px, 100%);
+			}
+
+			&.no-iphone {
+				background-image: url(/images/point2-img.png);
+				@include background-2x("/images/point2-img@2x", "png", 210px, 100%);
+			}
+
+			&.rewards {
+				background-image: url(/images/point1-img.png);
+				@include background-2x("/images/point1-img@2x", "png", 210px, 100%);
+			}
+
+			&.native {
+				background-image: url(/images/point2-img.png);
+				@include background-2x("/images/point2-img@2x", "png", 210px, 100%);
+			}
+
+			&.goals, &.no-iphone, &.rewards, &.native {
+				background-position: center;
+			}
+
 		}
 
 	}

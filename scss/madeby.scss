@@ -18,39 +18,26 @@
 		}
 
 	}
-	.made-flex{
+	.people {
 		max-width: 1080px;
 		margin: 0 auto;
+
 		padding: 0px 40px;
 		display: flex;
 		-webkit-display: flex;
-
 		justify-content: space-between;
+		flex-wrap: none;
 
-		//background-color: red;
-
-		.child{
-			//background-color: blue;
+		.developer, .designer {
 			max-width: 520px;
 
-			img{
+			img {
 				width: 100%;
 				margin-bottom: 40px;
 			}
 		}
-		.child-1{
+		.developer {
 			margin-right: 30px;
-		
-
-			.profile-img{
-				max-height: 520px;
-				width: 100%;
-				background-image: url(/images/mb.png);
-				background-color: green;
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-position: center;
-			}
 		}
 	}
 
@@ -74,7 +61,7 @@
 		}
 
 	}
-	.made-flex{
+	.people {
 		max-width: 1080px;
 		margin: 0 auto;
 		padding: 0px 40px;
@@ -86,20 +73,20 @@
 
 		//background-color: red;
 
-		.child{
+		.developer, .designer {
 			//background-color: blue;
 			width: 100%;
 
 			img{
 				width: 100%;
-				margin-bottom: 40px;
+				margin-bottom: 20px;
 			}
 			.p-2{
 				font-size: 22px;
 				line-height: 32px;
 			}
 		}
-		.child-1{
+		.developer{
 			//margin-right: 20px;
 		
 

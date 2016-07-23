@@ -85,6 +85,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/alec.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.88557e+06,
+		"inputAbbreviatedPath": "\/images\/alec.png",
+		"outputAbbreviatedPath": "\/images\/alec.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/IMG_0357.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 283866,
+		"inputAbbreviatedPath": "\/images\/IMG_0357.JPG",
+		"outputAbbreviatedPath": "\/images\/IMG_0357.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/mb.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -92,6 +114,17 @@
 		"initialSize": 290908,
 		"inputAbbreviatedPath": "\/images\/mb.png",
 		"outputAbbreviatedPath": "\/images\/mb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mitch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.33668e+06,
+		"inputAbbreviatedPath": "\/images\/mitch.png",
+		"outputAbbreviatedPath": "\/images\/mitch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -114,6 +147,28 @@
 		"initialSize": 691132,
 		"inputAbbreviatedPath": "\/images\/New_Watch@2x.png",
 		"outputAbbreviatedPath": "\/images\/New_Watch@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/people_images-assets\/alec.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.88557e+06,
+		"inputAbbreviatedPath": "\/images\/people_images-assets\/alec.png",
+		"outputAbbreviatedPath": "\/images\/people_images-assets\/alec.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/people_images-assets\/mitch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.33668e+06,
+		"inputAbbreviatedPath": "\/images\/people_images-assets\/mitch.png",
+		"outputAbbreviatedPath": "\/images\/people_images-assets\/mitch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

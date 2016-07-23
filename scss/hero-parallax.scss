@@ -34,7 +34,7 @@
 		overflow: hidden;
 		padding: 0px 40px 0px 40px;
 
-		h1{
+		h1 {
 			width: 100%;
 			//background-color: red
 			text-align: center;
@@ -46,24 +46,12 @@
 			margin: 0 auto;
 			z-index: 10;
 		}
-		form{
-			max-width: 516px;
-			margin-top: 60px;
-
-
-
-			input{
-				font-family: "yuzu", sans-serif;
-				font-weight: normal;
-				font-size: 20px;
-				border-style: none;
-			}
-		}
+		
 		.watch-1{
 			height: 648px;
 			width: 100%;
 			background-image: url(/images/New_Watch.png);
-			@include background-2x("/images/New_Watch", "png", 648px, 100%);
+			@include background-2x("/images/New_Watch@2x", "png", 648px, 100%);
 			background-repeat: no-repeat;
 			background-position: center;
 			position: absolute;
