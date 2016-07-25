@@ -38,7 +38,7 @@
 			width: 100%;
 			//background-color: red
 			text-align: center;
-			margin-top: 80px;
+			margin-top: 60px;
 		}
 		.caption{
 			text-align: center;
@@ -77,7 +77,7 @@
 			right: 55%; // Top left corner is 0,0b anchor point, aligns to .bird-box
 			margin-left: 0px;
 			top: 70%;
-			z-index: 5;
+			z-index: 2;
 		}
 		.shape-3{
 			height: 187px;
@@ -88,7 +88,7 @@
 			left: 60%;
 			margin-right: 210px;
 			top: 50%;
-			z-index: 5;
+			z-index: 3;
 		}
 		.shape-4{
 			height: 518px;
@@ -110,7 +110,7 @@
 			left: 60%;
 			margin-left: -210px;
 			top: 60%;
-			z-index: 1;
+			z-index: 4;
 		}
 	}
 
@@ -120,7 +120,7 @@
 
 	.hero-box{
 		position: relative; //Tells children this is the anchor
-		height: 700px;
+		height: 800px;
 		background-color: #090C37;
 			//background-color: transparentize(white, 0.1)
 		background-size: auto 600px; //Width = auto, height = 600px fixed
@@ -134,7 +134,7 @@
 		h1{
 			width: 100%;
 			text-align: center;
-			margin-top: 40px;
+			margin-top: 80px;
 		}
 		.caption{
 			text-align: center;
@@ -142,12 +142,11 @@
 			font-size: 22px;
 			line-height: 32px;
 			margin: 0 auto;
-			z-index: 10;
 		}
 		form{
 			max-width: 516px;
 			margin-top: 40px;
-			z-index: 0;
+			//background-color: red;
 
 			input{
 				font-family: "yuzu", sans-serif;
@@ -185,8 +184,8 @@
 			position: absolute; //Inside .bird-box container
 			right: 55%; // Top left corner is 0,0b anchor point, aligns to .bird-box
 			margin-left: 0px;
-			top: 70%;
-			z-index: 5;
+			top: 74%;
+			z-index: 2;
 		}
 		.shape-3{
 			height: 187px;
@@ -196,7 +195,7 @@
 			position: absolute; //Inside .bird-box container
 			left: 65%;
 			margin-right: 210px;
-			top: 60%;
+			top: 70%;
 			z-index: 5;
 		}
 		.shape-4{
@@ -208,7 +207,7 @@
 			left: 64%;
 			margin-left: -400px;
 			top: 90%;
-			z-index: 5;
+			z-index: 3;
 		}
 		.shape-5{
 			height: 1008px;
@@ -218,8 +217,8 @@
 			position: absolute; //Inside .bird-box container
 			left: 60%;
 			margin-left: -200px;
-			top: 60%;
-			z-index: 1;
+			top: 65%;
+			z-index: 4;
 		}
 	}
 

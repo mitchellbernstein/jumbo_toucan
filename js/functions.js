@@ -7,7 +7,6 @@ $(window).scroll(function(){
 	$(".h1").css({
 		"transform" : "translate(0px, -"+ wScroll /12 +"%)"
 	});
-	// Controls Watch
 	$(".watch-1").css({
 		"transform" : "translate(0px, -"+ wScroll /28 +"%)"
 	});
@@ -37,6 +36,15 @@ $(window).scroll(function(){
 	// 		"background-color" : "#FFFFFF"
 	// 	});
 	// });
+
+	// (function(){
+	// 	var burger = document.querySelector('.burger-container'),
+	// 		header = document.querySelector('.header');
+	//  	burger.onclick = function() {
+	//       header.classList.toggle('menu-opened');
+	//  	};
+	// }());
+
 
 });
 

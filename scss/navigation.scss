@@ -1,117 +1,100 @@
 // Navigation
 
 @media screen and (min-width: $min-large){
-	.nav{
-		//background-color: transparentize(green, 0.5);
+	// Controls logo
+	.navigation {
+		padding: 20px;
+		-webkit-display: flex;
 		display: flex;
-		max-width: 1228px;
-		padding: 0px 40px 0px 40px;
-		margin: 0 auto;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		align-items: center;	
+		height: 60px;
+		background-color: #090C37;
+		//background-color: white;
+	}
+	.logo {
+		font-size: 18px;
+		color: #f2f2f2;
+		padding: 14px 24px;
 		//background-color: red;
+	}
+	.navigation-items {
+		font-size: 18px;
+		color: #f2f2f2;
+		padding: 14px 24px;
+		//background-color: red;
+		transition: all 0.2s ease-in-out;
 
-		.logo{
-			//background-color: transparentize(pink, 0.6);
-			font-family: "yuzu", sans-serif;
-			font-weight: bold;
-			font-size: 24px;
-			color: #181F65;
-			letter-spacing: -0.51px;
-			margin-top: 20px;
-			margin-bottom: 0;
-			-webkit-align-self: flex-start;
-			align-self: flex-start;
-			//line-height: 0px;
+		a:link {
+			margin-left: 30px;
+			padding: 10px 20px;
+			border-radius: 6px;
+			transition: all 0.2s ease-in-out;
+			color: #FFFFFF;
 		}
-		.nav-items{
-			//background-color: transparentize(pink, 0.6);
-			font-family: "yuzu", sans-serif;
-			font-weight: normal;
-			font-size: 18px;
-			color: #181F65;
-			letter-spacing: -0.38px;
-			line-height: 20px;
-			margin-top: 20px;
-			margin-left: auto;
-			list-style: none;
-			margin-bottom: 0;
-			display: flex;
+		a:first-child {
+			margin-left: 0;
+		}
 
-			li{
-				margin-left: 50px;
-				color: #181F65;
-				text-decoration: none;
-				line-height: 40px;
-
-				a:link{
-					//background-color: red;
-					color: #181F65;
-					text-decoration: none;
-				}
-				a:hover{
-					//background-color: green;
-					color: #4B5EBA;
-					text-decoration: none;
-				}
-			}
+		a:hover {
+			background-color: #181F59;
+			border-radius: 6px;
+			transition: all 0.2s ease-in-out;
+			color: #FFFFFF;
 		}
 	}
+
 
 }
 
 @media screen and (max-width: $max-small){
-		.nav{
-		//background-color: transparentize(green, 0.5);
+		// Controls logo
+	.navigation {
+		-webkit-display: flex;
 		display: flex;
-		max-width: 1228px;
-		padding: 0px 40px 0px 40px;
-		margin: 0 auto;
+		-webkit-justify-content: space-around;
+		justify-content: space-around;
+		align-items: center;	
+		height: 100px;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		background-color: #090C37;
+		//background-color: white;
+
+	}
+	.logo {
+		font-size: 18px;
+		color: #f2f2f2;
+		margin-top: 12px;
 		//background-color: red;
+		width: 100vw;
+		text-align: center;
+	}
+	.navigation-items {
+		width: 100vw;
+		font-size: 18px;
+		color: #f2f2f2;
+		//background-color: red;
+		transition: all 0.2s ease-in-out;
+		text-align: center;
 
-		.logo{
-			//background-color: transparentize(pink, 0.6);
-			font-family: "yuzu", sans-serif;
-			font-weight: bold;
-			font-size: 24px;
-			color: #181F65;
-			letter-spacing: -0.51px;
-			margin-top: 20px;
-			margin-bottom: 0;
-			-webkit-align-self: flex-start;
-			align-self: flex-start;
-			//line-height: 0px;
+		a:link {
+			margin-left: 10px;
+			padding: 10px 20px;
+			border-radius: 6px;
+			transition: all 0.2s ease-in-out;
+			color: #FFFFFF;
 		}
-		.nav-items{
-			//background-color: transparentize(pink, 0.6);
-			font-family: "yuzu", sans-serif;
-			font-weight: normal;
-			font-size: 18px;
-			color: #181F65;
-			letter-spacing: -0.38px;
-			line-height: 20px;
-			margin-top: 20px;
-			margin-left: auto;
-			list-style: none;
-			margin-bottom: 0;
-			display: flex;
+		a:first-child {
+			margin-left: 0;
+		}
 
-			li{
-				margin-left: 50px;
-				color: #181F65;
-				text-decoration: none;
-				line-height: 40px;
-
-				a:link{
-					//background-color: red;
-					color: #181F65;
-					text-decoration: none;
-				}
-				a:hover{
-					//background-color: green;
-					color: #4B5EBA;
-					text-decoration: none;
-				}
-			}
+		a:hover {
+			background-color: #181F59;
+			border-radius: 6px;
+			transition: all 0.2s ease-in-out;
+			color: #FFFFFF;
 		}
 	}
-
 }

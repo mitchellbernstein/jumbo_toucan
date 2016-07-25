@@ -3,7 +3,7 @@
 @media screen and (min-width: $min-large){
 	#mc_embed_signup {
 		margin-top: 50px;
-
+		z-index: 9;
 		#mc_embed_signup_scroll {
 			max-width: 535px;
 			margin: 0 auto;
@@ -11,6 +11,7 @@
 				&:focus {
 					border: 2px solid #FFFFFF;
 					color: #FFFFFF;
+					transition: all 0.2s ease-in-out;
 				}
 				// &:focus ~ div #mc-embedded-subscribe {
 				// 	background-color: #FFFFFF;
@@ -22,11 +23,11 @@
 				font-size: 20px;
 				float: left;
 				width: 360px;
-				// border-radius: 8px 0px 0px 8px;
 				border: 2px solid #454864;
 				box-sizing: border-box;
 				background-color: #090C37;
 				color: rgba(255, 255, 255, .5);
+				transition: all 0.2s ease-in-out;
 			}
 			
 				#mce-error-response {
@@ -36,23 +37,27 @@
 					a {
 						color: #ff8080;
 					}
+					transition: all 0.2s ease-in-out;
 				}
 				#mce-success-response {
 					float: left;
 					color: #FFFFFF;
 					text-align: center;
+					transition: all 0.2s ease-in-out;
 				}
 
 			#mc-embedded-subscribe {
 				&:hover {
 					background-color: #FFFFFF;
 					color: #090C37;
+					transition: all 0.2s ease-in-out;
 				}
 
 				margin-left: 10px; 
 				border-style: none;
 				background-color: #454864;
 				color: rgba(255, 255, 255, .3);
+				transition: all 0.2s ease-in-out;
 			}
 		}
 	}
@@ -76,6 +81,7 @@
 				&:focus {
 					border: 2px solid #FFFFFF;
 					color: #FFFFFF;
+					transition: all 0.2s ease-in-out;
 				}
 				// &:focus ~ div #mc-embedded-subscribe {
 				// 	background-color: #FFFFFF;
@@ -92,12 +98,14 @@
 				box-sizing: border-box;
 				background-color: #090C37;
 				color: rgba(255, 255, 255, .5);
+				transition: all 0.2s ease-in-out;
 			}
 			
 				#mce-error-response {
 					float: left;
 					color: red;
 					text-align: center;
+					transition: all 0.2s ease-in-out;
 					a {
 						color: #ff8080;
 					}
@@ -106,18 +114,21 @@
 					float: left;
 					color: #FFFFFF;
 					text-align: center;
+					transition: all 0.2s ease-in-out;
 				}
 
 			#mc-embedded-subscribe {
 				&:hover {
 					background-color: #FFFFFF;
 					color: #090C37;
+					transition: all 0.2s ease-in-out;
 				}
 
 				width: 100%;
 				border-style: none;
 				background-color: #454864;
 				color: rgba(255, 255, 255, .3);
+				transition: all 0.2s ease-in-out;
 			}
 		}
 	}
