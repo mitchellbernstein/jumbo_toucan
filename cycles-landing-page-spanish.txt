@@ -60,15 +60,24 @@ mándanos un mensajito!
 Design Notes
 ============
 - Remove period after schedule?
-- Change "Email me when its ready" to "Notify me when its ready"?
+	Well’ it’s a sentence no? Rather be grammatically right than pretty.
+- Change "Email me when its ready" to "Notify me when its ready"?	
+	Done
 - Change "Stand Alone App"?
+	Too long for title, wraps weirdly.
 - In "Stand Alone App" description change watch to Apple Watch & possibly the word
   feature?
+	Done
 - In "Native Interface" familiar is spelt wrong!
+	You’re wrong BIATCH
 - Redo about me? (typos, grammar)
+	NO. You’re a typo…
 - Do you even LINK bro? (link social media)
+	Links are at the bottom but i can add them again under our about above the contact if ya want
 - Take out elsewhere on the bottom?
+	Why?!??!?!?!
 - Contact in header bar should bring user to footer contact info?
+	Debatable- Could be quick way to email, but i like it is consistent. Done.
 - Need translate signup email and feedback codes to Spanish
 - In input onClick, change text to example email e.g cycles@jumbotoucan.com
 

@@ -1,9 +1,9 @@
 // Navigation
 
 @media screen and (min-width: $min-large){
-	// Controls logo
 	.navigation {
-		padding: 20px;
+		font-family: "hind", sans-serif;
+		padding: 20px 10px;
 		-webkit-display: flex;
 		display: flex;
 		-webkit-justify-content: space-between;
@@ -11,28 +11,42 @@
 		align-items: center;	
 		height: 60px;
 		background-color: #090C37;
-		//background-color: white;
+
 	}
+
 	.logo {
 		font-size: 18px;
 		color: #f2f2f2;
 		padding: 14px 24px;
-		//background-color: red;
+		margin-left: 10px;
+		font-weight: bold;
 	}
+
 	.navigation-items {
 		font-size: 18px;
 		color: #f2f2f2;
 		padding: 14px 24px;
-		//background-color: red;
 		transition: all 0.2s ease-in-out;
+		color: #FFFFFF;
+
+		.lang {
+
+			color: #FFFFFF;
+
+			span {
+					color: #717BC9;
+				}
+		}
 
 		a:link {
-			margin-left: 30px;
-			padding: 10px 20px;
+			margin-left: 20px;
+			padding: 10px 14px;
 			border-radius: 6px;
 			transition: all 0.2s ease-in-out;
 			color: #FFFFFF;
+
 		}
+
 		a:first-child {
 			margin-left: 0;
 		}
@@ -42,6 +56,8 @@
 			border-radius: 6px;
 			transition: all 0.2s ease-in-out;
 			color: #FFFFFF;
+
+			
 		}
 	}
 
@@ -49,8 +65,10 @@
 }
 
 @media screen and (max-width: $max-small){
-		// Controls logo
+
 	.navigation {
+		font-family: "hind", sans-serif;
+
 		-webkit-display: flex;
 		display: flex;
 		-webkit-justify-content: space-around;
@@ -60,31 +78,50 @@
 		-webkit-flex-wrap: wrap;
 		flex-wrap: wrap;
 		background-color: #090C37;
-		//background-color: white;
 
 	}
+
 	.logo {
 		font-size: 18px;
 		color: #f2f2f2;
 		margin-top: 12px;
-		//background-color: red;
+		font-weight: bold;
 		width: 100vw;
 		text-align: center;
 	}
+
 	.navigation-items {
 		width: 100vw;
-		font-size: 18px;
+		font-size: 16px;
 		color: #f2f2f2;
-		//background-color: red;
 		transition: all 0.2s ease-in-out;
 		text-align: center;
+		margin: 0px 10px 0px 10px;
+
+		max-width: 400px;
+		-webkit-display: flex;
+		display: flex;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		align-items: center;	
+
+
+		.lang {
+
+			color: #FFFFFF;
+
+			span {
+					color: #717BC9;
+				}
+		}
 
 		a:link {
-			margin-left: 10px;
-			padding: 10px 20px;
+			margin-left: 8px;
+			padding: 10px 10px;
 			border-radius: 6px;
 			transition: all 0.2s ease-in-out;
 			color: #FFFFFF;
+
 		}
 		a:first-child {
 			margin-left: 0;

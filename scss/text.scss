@@ -1,17 +1,17 @@
 // Text
 
 @font-face{
-	font-family: "yuzu", sans-serif;
+	font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 	src: url(/fonts/yuzu-bold.otf);
 	font-weight: bold;
 }
 @font-face{
-	font-family: "yuzu", sans-serif;
+	font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 	src: url(/fonts/yuzu-medium.otf);
 	font-weight: medium;
 }
 @font-face{
-	font-family: "yuzu", sans-serif;
+	font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 	src: url(/fonts/yuzu-regular.otf);
 	font-weight: normal;
 }
@@ -19,21 +19,21 @@
 @media screen and (min-width: $min-large){
 
 	h1{
-		font-family: "yuzu", sans-serif;
+		font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 		font-weight: bold;
 		font-size: 72px;
 		color: #FFFFFF;
 		letter-spacing: -3px;
 	}
 	h2{
-		font-family: "yuzu", sans-serif;
+		font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 		font-weight: bold;
 		font-size: 80px;
 		color: #181F65;
 		letter-spacing: -3px;
 	}
 	h3{
-		font-family: "yuzu", sans-serif;
+		font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 		font-weight: bold;
 		font-size: 32px;
 		color: #FFFFFF;
@@ -44,21 +44,21 @@
 		color: #181F65;
 	}
 	h5{
-		font-family: "yuzu", sans-serif;
+		font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 		font-size: 20px;
 		color: #9DA1B8;
 		letter-spacing: -0.42px;
 		line-height: 48px;
 	}
 	.caption{
-		font-family: "hind", sans-serif;
+		font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
 		font-size: 28px;
 		color: #CFD2F2;
 		letter-spacing: -0.59px;
 		line-height: 32px;
 	}
 	.paragraph-1{
-		font-family: "hind", sans-serif;
+		font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
 		//"yuzu", sans-serif;
 		font-weight: normal;
 		font-style: normal;
@@ -69,7 +69,7 @@
 		margin-bottom: 60px;
 	}
 	.paragraph-2{
-		font-family: "hind", sans-serif;
+		font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
 		font-weight: normal;
 		font-size: 18px;
 		color: #C8CBE2;
@@ -86,21 +86,21 @@
 @media screen and (max-width: $max-small){
 
 	h1{
-		font-family: "yuzu", sans-serif;
+		font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 		font-weight: bold;
 		font-size: 72px;
 		color: #FFFFFF;
 		letter-spacing: -3px;
 	}
 	h2{
-		font-family: "yuzu", sans-serif;
+		font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 		font-weight: bold;
 		font-size: 48px;
 		color: #181F65;
 		letter-spacing: -3px;
 	}
 	h3{
-		font-family: "yuzu", sans-serif;
+		font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 		font-weight: bold;
 		font-size: 32px;
 		color: #FFFFFF;
@@ -111,21 +111,21 @@
 		color: #181F65;
 	}
 	h5{
-		font-family: "yuzu", sans-serif;
+		font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
 		font-size: 20px;
 		color: #9DA1B8;
 		letter-spacing: -0.42px;
 		line-height: 48px;
 	}
 	.caption{
-		font-family: "hind", sans-serif;
+		font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
 		font-size: 28px;
 		color: #CFD2F2;
 		letter-spacing: -0.59px;
 		line-height: 32px;
 	}
 	.paragraph-1{
-		font-family: "hind", sans-serif;
+		font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
 		//"yuzu", sans-serif;
 		font-weight: normal;
 		font-style: normal;
@@ -136,7 +136,7 @@
 		margin-bottom: 60px;
 	}
 	.paragraph-2{
-		font-family: "hind", sans-serif;
+		font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
 		font-weight: normal;
 		font-size: 18px;
 		color: #C8CBE2;
