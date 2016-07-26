@@ -173,6 +173,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/alec 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.73826e+06,
+		"inputAbbreviatedPath": "\/images\/alec 2.png",
+		"outputAbbreviatedPath": "\/images\/alec 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/alec.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -206,6 +217,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/mitch 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.18707e+06,
+		"inputAbbreviatedPath": "\/images\/mitch 2.png",
+		"outputAbbreviatedPath": "\/images\/mitch 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/mitch.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -235,28 +257,6 @@
 		"initialSize": 691132,
 		"inputAbbreviatedPath": "\/images\/New_Watch@2x.png",
 		"outputAbbreviatedPath": "\/images\/New_Watch@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/people_images-assets\/alec.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.88557e+06,
-		"inputAbbreviatedPath": "\/images\/people_images-assets\/alec.png",
-		"outputAbbreviatedPath": "\/images\/people_images-assets\/alec.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/people_images-assets\/mitch.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.33668e+06,
-		"inputAbbreviatedPath": "\/images\/people_images-assets\/mitch.png",
-		"outputAbbreviatedPath": "\/images\/people_images-assets\/mitch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
