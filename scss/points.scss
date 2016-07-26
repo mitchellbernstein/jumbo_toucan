@@ -34,33 +34,37 @@
 	.center {
 		text-align: center;
 		.paragraph-2.blue {
-			text-align: left;
+			//text-align: left;
 		}
 
 		.point-img {
 			width: 100%;
 			height: 248px;
 			background-repeat: no-repeat;
+			background-position: center;
 			margin-bottom: 20px;
 
 			&.goals {
-				background-image: url(/images/point1-img.png);
-				@include background-2x("/images/point1-img@2x", "png", 210px, 100%);
+				background-image: url(/images/1-goals.png);
+				@include background-2x("/images/1-goals@2x", "png", 210px, 100%);
 			}
 
-			&.no-iphone {
-				background-image: url(/images/point2-img.png);
-				@include background-2x("/images/point2-img@2x", "png", 210px, 100%);
+			&.independent {
+				background-image: url(/images/2-independent.png);
+				@include background-2x("/images/2-independent@2x", "png", 210px, 100%);
+				background-position: center;
 			}
 
-			&.rewards {
-				background-image: url(/images/point2-img.png);
-				@include background-2x("/images/point2-img@2x", "png", 210px, 100%);
+			&.rewarding {
+				background-image: url(/images/3-rewarding.png);
+				@include background-2x("/images/3-rewarding@2x", "png", 210px, 100%);
+				background-position: center;
 			}
 
-			&.native {
-				background-image: url(/images/point4-img.png);
-				@include background-2x("/images/point4-img@2x", "png", 210px, 100%);
+			&.familiar {
+				background-image: url(/images/4-familiar.png);
+				@include background-2x("/images/4-familiar@2x", "png", 210px, 100%);
+				background-position: center;
 			}
 
 			&.goals, &.no-iphone, &.rewards, &.native {
@@ -99,24 +103,29 @@
 			background-repeat: no-repeat;
 			margin-bottom: 20px;
 
+
 			&.goals {
-				background-image: url(/images/point1-img.png);
-				@include background-2x("/images/point1-img@2x", "png", 210px, 100%);
+				background-image: url(/images/1-goals.png);
+				@include background-2x("/images/1-goals@2x", "png", 210px, 100%);
+				background-position: center;
 			}
 
-			&.no-iphone {
-				background-image: url(/images/point2-img.png);
-				@include background-2x("/images/point2-img@2x", "png", 210px, 100%);
+			&.independent {
+				background-image: url(/images/2-independent.png);
+				@include background-2x("/images/2-independent@2x", "png", 210px, 100%);
+				background-position: center;
 			}
 
-			&.rewards {
-				background-image: url(/images/point2-img.png);
-				@include background-2x("/images/point2-img@2x", "png", 210px, 100%);
+			&.rewarding {
+				background-image: url(/images/3-rewarding.png);
+				@include background-2x("/images/3-rewarding@2x", "png", 210px, 100%);
+				background-position: center;
 			}
 
-			&.native {
-				background-image: url(/images/point4-img.png);
-				@include background-2x("/images/point4-img@2x", "png", 210px, 100%);
+			&.familiar {
+				background-image: url(/images/4-familiar.png);
+				@include background-2x("/images/4-familiar@2x", "png", 210px, 100%);
+				background-position: center;
 			}
 
 			&.goals, &.no-iphone, &.rewards, &.native {

@@ -505,37 +505,39 @@
 
   .center {
     text-align: center; }
-    .center .paragraph-2.blue {
-      text-align: left; }
     .center .point-img {
       width: 100%;
       height: 248px;
       background-repeat: no-repeat;
+      background-position: center;
       margin-bottom: 20px; }
       .center .point-img.goals {
-        background-image: url(/images/point1-img.png);
-        background-image: url("/images/point1-img@2x.png");
+        background-image: url(/images/1-goals.png);
+        background-image: url("/images/1-goals@2x.png");
         background-size: 210px 100%;
         background-position: left top;
         background-repeat: no-repeat; }
-      .center .point-img.no-iphone {
-        background-image: url(/images/point2-img.png);
-        background-image: url("/images/point2-img@2x.png");
+      .center .point-img.independent {
+        background-image: url(/images/2-independent.png);
+        background-image: url("/images/2-independent@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat; }
-      .center .point-img.rewards {
-        background-image: url(/images/point2-img.png);
-        background-image: url("/images/point2-img@2x.png");
+        background-repeat: no-repeat;
+        background-position: center; }
+      .center .point-img.rewarding {
+        background-image: url(/images/3-rewarding.png);
+        background-image: url("/images/3-rewarding@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat; }
-      .center .point-img.native {
-        background-image: url(/images/point4-img.png);
-        background-image: url("/images/point4-img@2x.png");
+        background-repeat: no-repeat;
+        background-position: center; }
+      .center .point-img.familiar {
+        background-image: url(/images/4-familiar.png);
+        background-image: url("/images/4-familiar@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat;
+        background-position: center; }
       .center .point-img.goals, .center .point-img.no-iphone, .center .point-img.rewards, .center .point-img.native {
         background-position: center; } }
 @media screen and (max-width: 780px) {
@@ -557,29 +559,33 @@
       background-repeat: no-repeat;
       margin-bottom: 20px; }
       .center .point-img.goals {
-        background-image: url(/images/point1-img.png);
-        background-image: url("/images/point1-img@2x.png");
+        background-image: url(/images/1-goals.png);
+        background-image: url("/images/1-goals@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat; }
-      .center .point-img.no-iphone {
-        background-image: url(/images/point2-img.png);
-        background-image: url("/images/point2-img@2x.png");
+        background-repeat: no-repeat;
+        background-position: center; }
+      .center .point-img.independent {
+        background-image: url(/images/2-independent.png);
+        background-image: url("/images/2-independent@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat; }
-      .center .point-img.rewards {
-        background-image: url(/images/point2-img.png);
-        background-image: url("/images/point2-img@2x.png");
+        background-repeat: no-repeat;
+        background-position: center; }
+      .center .point-img.rewarding {
+        background-image: url(/images/3-rewarding.png);
+        background-image: url("/images/3-rewarding@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat; }
-      .center .point-img.native {
-        background-image: url(/images/point4-img.png);
-        background-image: url("/images/point4-img@2x.png");
+        background-repeat: no-repeat;
+        background-position: center; }
+      .center .point-img.familiar {
+        background-image: url(/images/4-familiar.png);
+        background-image: url("/images/4-familiar@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat;
+        background-position: center; }
       .center .point-img.goals, .center .point-img.no-iphone, .center .point-img.rewards, .center .point-img.native {
         background-position: center; } }
 @media screen and (min-width: 781px) {
