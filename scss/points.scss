@@ -52,22 +52,19 @@
 			&.independent {
 				background-image: url(/images/2-independent.png);
 				@include background-2x("/images/2-independent@2x", "png", 210px, 100%);
-				background-position: center;
 			}
 
 			&.rewarding {
 				background-image: url(/images/3-rewarding.png);
 				@include background-2x("/images/3-rewarding@2x", "png", 210px, 100%);
-				background-position: center;
 			}
 
 			&.familiar {
 				background-image: url(/images/4-familiar.png);
 				@include background-2x("/images/4-familiar@2x", "png", 210px, 100%);
-				background-position: center;
 			}
 
-			&.goals, &.no-iphone, &.rewards, &.native {
+			&.goals, &.independent, &.rewarding, &.familiar {
 				background-position: center;
 			}
 
@@ -107,28 +104,24 @@
 			&.goals {
 				background-image: url(/images/1-goals.png);
 				@include background-2x("/images/1-goals@2x", "png", 210px, 100%);
-				background-position: center;
 			}
 
 			&.independent {
 				background-image: url(/images/2-independent.png);
 				@include background-2x("/images/2-independent@2x", "png", 210px, 100%);
-				background-position: center;
 			}
 
 			&.rewarding {
 				background-image: url(/images/3-rewarding.png);
 				@include background-2x("/images/3-rewarding@2x", "png", 210px, 100%);
-				background-position: center;
 			}
 
 			&.familiar {
 				background-image: url(/images/4-familiar.png);
 				@include background-2x("/images/4-familiar@2x", "png", 210px, 100%);
-				background-position: center;
 			}
 
-			&.goals, &.no-iphone, &.rewards, &.native {
+			&.goals, &.independent, &.rewarding, &.familiar {
 				background-position: center;
 			}
 
