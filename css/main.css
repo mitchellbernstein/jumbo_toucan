@@ -527,7 +527,31 @@
         background-size: 210px 100%;
         background-position: left top;
         background-repeat: no-repeat; }
-      .center .point-img.goals, .center .point-img.independent, .center .point-img.rewarding, .center .point-img.familiar {
+      .center .point-img.goalsSP {
+        background-image: url(/images/1-goalsSP.png);
+        background-image: url("/images/1-goalsSP@2x.png");
+        background-size: 210px 100%;
+        background-position: left top;
+        background-repeat: no-repeat; }
+      .center .point-img.independentSP {
+        background-image: url(/images/2-independentSP.png);
+        background-image: url("/images/2-independentSP@2x.png");
+        background-size: 210px 100%;
+        background-position: left top;
+        background-repeat: no-repeat; }
+      .center .point-img.rewardingSP {
+        background-image: url(/images/3-rewardingSP.png);
+        background-image: url("/images/3-rewardingSP@2x.png");
+        background-size: 210px 100%;
+        background-position: left top;
+        background-repeat: no-repeat; }
+      .center .point-img.familiarSP {
+        background-image: url(/images/4-familiarSP.png);
+        background-image: url("/images/4-familiarSP@2x.png");
+        background-size: 210px 100%;
+        background-position: left top;
+        background-repeat: no-repeat; }
+      .center .point-img.goals, .center .point-img.independent, .center .point-img.rewarding, .center .point-img.familiar, .center .point-img.goalsSP, .center .point-img.independentSP, .center .point-img.rewardingSP, .center .point-img.familiarSP {
         background-position: center; } }
 @media screen and (max-width: 780px) {
   .watch-point {
