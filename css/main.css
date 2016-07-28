@@ -509,6 +509,10 @@
           background-color: #454864;
           color: rgba(255, 255, 255, 0.3);
           transition: all 0.2s ease-in-out; }
+          #mc_embed_signup #mc-embedded-subscribe-form #mc_embed_signup_scroll #mc-embedded-subscribe.enabled {
+            background-color: #FFFFFF;
+            color: #090C37;
+          }
           #mc_embed_signup #mc-embedded-subscribe-form #mc_embed_signup_scroll #mc-embedded-subscribe:hover {
             background-color: #FFFFFF;
             color: #090C37;

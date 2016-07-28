@@ -36,6 +36,14 @@ $(window).scroll(function(){
 	});
 });
 
+$('#mce-EMAIL').keyup(function() {
+	if (this.value.length > 0) {
+		$('#mc-embedded-subscribe').addClass('enabled');
+	} else {
+		$('#mc-embedded-subscribe').removeClass('enabled');
+	}
+});
+
 
 
 
