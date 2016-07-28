@@ -30,22 +30,6 @@ $(window).scroll(function(){
 	$(".shape-5").css({
 		"transform" : "translate(0px, -"+ wScroll /320 +"%)"
 	});
-
-	// $("#mce-EMAIL").click(function(){
-	// 	$("#mc-embedded-subscribe").css({
-	// 		"background-color" : "#FFFFFF"
-	// 	});
-	// });
-
-	// (function(){
-	// 	var burger = document.querySelector('.burger-container'),
-	// 		header = document.querySelector('.header');
-	//  	burger.onclick = function() {
-	//       header.classList.toggle('menu-opened');
-	//  	};
-	// }());
-
-
 });
 
 
