@@ -1,8 +1,10 @@
 // Navigation
 
+$font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
+
 @media screen and (min-width: $min-large){
 	.navigation {
-		font-family: "hind", sans-serif;
+		font-family: $font-stack;
 		padding: 20px 10px;
 		-webkit-display: flex;
 		display: flex;
@@ -67,8 +69,8 @@
 @media screen and (max-width: $max-small){
 
 	.navigation {
-		font-family: "hind", sans-serif;
-
+		font-family: $font-stack;
+		letter-spacing: -.5px;
 		-webkit-display: flex;
 		display: flex;
 		-webkit-justify-content: space-around;
@@ -96,7 +98,7 @@
 		color: #f2f2f2;
 		transition: all 0.2s ease-in-out;
 		text-align: center;
-		margin: 0px 10px 0px 10px;
+		margin: 0px 5px 0px 5px;
 
 		max-width: 400px;
 		-webkit-display: flex;

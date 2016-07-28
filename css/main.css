@@ -1,32 +1,20 @@
-@font-face {
-  font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
-  src: url(/fonts/yuzu-bold.otf);
-  font-weight: bold; }
-@font-face {
-  font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
-  src: url(/fonts/yuzu-medium.otf);
-  font-weight: medium; }
-@font-face {
-  font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
-  src: url(/fonts/yuzu-regular.otf);
-  font-weight: normal; }
 @media screen and (min-width: 781px) {
   h1 {
-    font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-weight: bold;
     font-size: 72px;
     color: #FFFFFF;
     letter-spacing: -3px; }
 
   h2 {
-    font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-weight: bold;
     font-size: 80px;
     color: #181F65;
     letter-spacing: -3px; }
 
   h3 {
-    font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-weight: bold;
     font-size: 32px;
     color: #FFFFFF;
@@ -37,21 +25,22 @@
     color: #181F65; }
 
   h5 {
-    font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-size: 20px;
     color: #9DA1B8;
     letter-spacing: -0.42px;
     line-height: 48px; }
 
   .caption {
-    font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
+    font-weight: 200;
     font-size: 28px;
     color: #CFD2F2;
-    letter-spacing: -0.59px;
+    letter-spacing: 0px;
     line-height: 32px; }
 
   .paragraph-1 {
-    font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 28px;
@@ -61,11 +50,11 @@
     margin-bottom: 60px; }
 
   .paragraph-2 {
-    font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
-    font-weight: normal;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
+    font-weight: 200;
     font-size: 18px;
     color: #C8CBE2;
-    letter-spacing: -0.42px;
+    letter-spacing: 0px;
     line-height: 26px;
     margin-bottom: 80px; }
 
@@ -74,23 +63,23 @@
     margin-bottom: 90px; } }
 @media screen and (max-width: 780px) {
   h1 {
-    font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-weight: bold;
     font-size: 72px;
     color: #FFFFFF;
     letter-spacing: -3px; }
 
   h2 {
-    font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-weight: bold;
     font-size: 48px;
     color: #181F65;
     letter-spacing: -3px; }
 
   h3 {
-    font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 24px;
     color: #FFFFFF;
     letter-spacing: -0.67px;
     line-height: 32px; }
@@ -99,23 +88,23 @@
     color: #181F65; }
 
   h5 {
-    font-family: "yuzu", trebuchet, Helvetica, arial, sans-serif;
-    font-size: 20px;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
+    font-size: 24px;
     color: #9DA1B8;
     letter-spacing: -0.42px;
     line-height: 48px; }
 
   .caption {
-    font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
+    font-weight: 200;
     font-size: 28px;
     color: #CFD2F2;
     letter-spacing: -0.59px;
     line-height: 32px; }
 
   .paragraph-1 {
-    font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
-    font-weight: normal;
-    font-style: normal;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
+    font-weight: 400;
     font-size: 22px;
     color: #9DA1B8;
     letter-spacing: -1px;
@@ -123,7 +112,7 @@
     margin-bottom: 60px; }
 
   .paragraph-2 {
-    font-family: "hind", trebuchet, Helvetica, arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-weight: normal;
     font-size: 18px;
     color: #C8CBE2;
@@ -311,7 +300,7 @@
       z-index: 4; } }
 @media screen and (min-width: 781px) {
   .navigation {
-    font-family: "hind", sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     padding: 20px 10px;
     -webkit-display: flex;
     display: flex;
@@ -330,7 +319,7 @@
 
   .navigation-items {
     font-size: 18px;
-    color: #f2f2f2;
+    color: #717BC9;
     padding: 14px 24px;
     transition: all 0.2s ease-in-out;
     color: #FFFFFF; }
@@ -353,7 +342,8 @@
       color: #FFFFFF; } }
 @media screen and (max-width: 780px) {
   .navigation {
-    font-family: "hind", sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
+    letter-spacing: -.5px;
     -webkit-display: flex;
     display: flex;
     -webkit-justify-content: space-around;
@@ -378,7 +368,7 @@
     color: #f2f2f2;
     transition: all 0.2s ease-in-out;
     text-align: center;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 5px 0px 5px;
     max-width: 400px;
     -webkit-display: flex;
     display: flex;
@@ -404,7 +394,7 @@
       color: #FFFFFF; } }
 @media screen and (min-width: 781px) {
   #mc_embed_signup {
-    font-family: "hind", Helvetica, Arial, sans-serif;
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     margin-top: 50px;
     z-index: 9; }
     #mc_embed_signup #mc_embed_signup_scroll {
@@ -412,7 +402,7 @@
       margin: 0 auto; }
       #mc_embed_signup #mc_embed_signup_scroll #mce-EMAIL {
         font-weight: normal;
-        font-size: 20px;
+        font-size: 18px;
         float: left;
         width: 360px;
         border: 2px solid #454864;
@@ -438,8 +428,9 @@
         transition: all 0.2s ease-in-out; }
       #mc_embed_signup #mc_embed_signup_scroll #mc-embedded-subscribe {
         font-weight: normal;
+        font-size: 18px;
         letter-spacing: -.1px;
-        margin-left: 10px;
+        margin-left: 16px;
         border-style: none;
         background-color: #454864;
         color: rgba(255, 255, 255, 0.3);
@@ -451,7 +442,7 @@
 @media screen and (max-width: 780px) {
   #mc_embed_signup {
     margin-top: 40px;
-    font-family: "hind", Helvetica, Arial, sans-serif; }
+    font-family: filson-soft, trebuchet, helvetica, arial, sans-serif; }
     #mc_embed_signup #mc-embedded-subscribe-form {
       max-width: 400px;
       margin: 0 auto; }
@@ -459,10 +450,11 @@
         max-width: 100%;
         margin: 0 auto; }
         #mc_embed_signup #mc-embedded-subscribe-form #mc_embed_signup_scroll #mce-EMAIL {
-          font-family: "hind", Helvetica, Arial, sans-serif;
+          text-align: center;
+          font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
           font-weight: normal;
           font-size: 20px;
-          float: left;
+          padding: 4px;
           width: 100%;
           border: 2px solid #454864;
           box-sizing: border-box;
@@ -486,7 +478,7 @@
           text-align: center;
           transition: all 0.2s ease-in-out; }
         #mc_embed_signup #mc-embedded-subscribe-form #mc_embed_signup_scroll #mc-embedded-subscribe {
-          font-family: "hind", Helvetica, Arial, sans-serif;
+          font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
           width: 100%;
           border-style: none;
           background-color: #454864;
@@ -522,23 +514,20 @@
         background-image: url("/images/2-independent@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat;
-        background-position: center; }
+        background-repeat: no-repeat; }
       .center .point-img.rewarding {
         background-image: url(/images/3-rewarding.png);
         background-image: url("/images/3-rewarding@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat;
-        background-position: center; }
+        background-repeat: no-repeat; }
       .center .point-img.familiar {
         background-image: url(/images/4-familiar.png);
         background-image: url("/images/4-familiar@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat;
-        background-position: center; }
-      .center .point-img.goals, .center .point-img.no-iphone, .center .point-img.rewards, .center .point-img.native {
+        background-repeat: no-repeat; }
+      .center .point-img.goals, .center .point-img.independent, .center .point-img.rewarding, .center .point-img.familiar {
         background-position: center; } }
 @media screen and (max-width: 780px) {
   .watch-point {
@@ -563,30 +552,26 @@
         background-image: url("/images/1-goals@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat;
-        background-position: center; }
+        background-repeat: no-repeat; }
       .center .point-img.independent {
         background-image: url(/images/2-independent.png);
         background-image: url("/images/2-independent@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat;
-        background-position: center; }
+        background-repeat: no-repeat; }
       .center .point-img.rewarding {
         background-image: url(/images/3-rewarding.png);
         background-image: url("/images/3-rewarding@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat;
-        background-position: center; }
+        background-repeat: no-repeat; }
       .center .point-img.familiar {
         background-image: url(/images/4-familiar.png);
         background-image: url("/images/4-familiar@2x.png");
         background-size: 210px 100%;
         background-position: left top;
-        background-repeat: no-repeat;
-        background-position: center; }
-      .center .point-img.goals, .center .point-img.no-iphone, .center .point-img.rewards, .center .point-img.native {
+        background-repeat: no-repeat; }
+      .center .point-img.goals, .center .point-img.independent, .center .point-img.rewarding, .center .point-img.familiar {
         background-position: center; } }
 @media screen and (min-width: 781px) {
   .blue-bg {
@@ -658,7 +643,7 @@
       line-height: 28px;
       margin-bottom: 40px; }
     footer a {
-      font-family: "hind", sans-serif;
+      font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
       font-size: 20px;
       color: #181F65;
       letter-spacing: -0.42px; } }
@@ -679,7 +664,7 @@
       line-height: 32px;
       margin-bottom: 40px; }
     footer a {
-      font-family: "hind", sans-serif;
+      font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
       font-size: 24px;
       color: #181F65;
       letter-spacing: -0.42px; } }
