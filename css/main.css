@@ -9,7 +9,7 @@
   h2 {
     font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 64px;
     color: #181F65;
     letter-spacing: -3px; }
 
@@ -144,11 +144,24 @@
       max-width: 520px;
       margin: 0 auto;
       z-index: 10; }
-    .hero-box .watch-1 {
+    .hero-box .watchEN {
       height: 648px;
       width: 100%;
-      background-image: url(/images/New_Watch.png);
-      background-image: url("/images/New_Watch@2x.png");
+      background-image: url(/images/WatchEN.png);
+      background-image: url("/images/WatchEN@2x.png");
+      background-size: 648px 100%;
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      bottom: -260px;
+      z-index: 6; }
+    .hero-box .watchSP {
+      height: 648px;
+      width: 100%;
+      background-image: url(/images/WatchSP.png);
+      background-image: url("/images/WatchSP@2x.png");
       background-size: 648px 100%;
       background-position: left top;
       background-repeat: no-repeat;
@@ -236,11 +249,24 @@
         font-weight: normal;
         font-size: 20px;
         border-style: none; }
-    .hero-box .watch-1 {
+    .hero-box .watchEN {
       height: 648px;
       width: 100%;
-      background-image: url(/images/New_Watch.png);
-      background-image: url("/images/New_Watch.png");
+      background-image: url(/images/WatchEN.png);
+      background-image: url("/images/WatchEN@2x.png");
+      background-size: 400px 400px;
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      bottom: -300px;
+      z-index: 6; }
+    .hero-box .watchSP {
+      height: 648px;
+      width: 100%;
+      background-image: url(/images/WatchSP.png);
+      background-image: url("/images/WatchSP@2x.png");
       background-size: 400px 400px;
       background-position: left top;
       background-repeat: no-repeat;
@@ -595,7 +621,31 @@
         background-size: 210px 100%;
         background-position: left top;
         background-repeat: no-repeat; }
-      .center .point-img.goals, .center .point-img.independent, .center .point-img.rewarding, .center .point-img.familiar {
+      .center .point-img.goalsSP {
+        background-image: url(/images/1-goalsSP.png);
+        background-image: url("/images/1-goalsSP@2x.png");
+        background-size: 210px 100%;
+        background-position: left top;
+        background-repeat: no-repeat; }
+      .center .point-img.independentSP {
+        background-image: url(/images/2-independentSP.png);
+        background-image: url("/images/2-independentSP@2x.png");
+        background-size: 210px 100%;
+        background-position: left top;
+        background-repeat: no-repeat; }
+      .center .point-img.rewardingSP {
+        background-image: url(/images/3-rewardingSP.png);
+        background-image: url("/images/3-rewardingSP@2x.png");
+        background-size: 210px 100%;
+        background-position: left top;
+        background-repeat: no-repeat; }
+      .center .point-img.familiarSP {
+        background-image: url(/images/4-familiarSP.png);
+        background-image: url("/images/4-familiarSP@2x.png");
+        background-size: 210px 100%;
+        background-position: left top;
+        background-repeat: no-repeat; }
+      .center .point-img.goals, .center .point-img.independent, .center .point-img.rewarding, .center .point-img.familiar, .center .point-img.goalsSP, .center .point-img.independentSP, .center .point-img.rewardingSP, .center .point-img.familiarSP {
         background-position: center; } }
 @media screen and (min-width: 781px) {
   .blue-bg {

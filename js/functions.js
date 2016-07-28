@@ -7,7 +7,11 @@ $(window).scroll(function(){
 	$(".h1").css({
 		"transform" : "translate(0px, -"+ wScroll /12 +"%)"
 	});
-	$(".watch-1").css({
+	$(".watchEN").css({
+		"transform" : "translate(0px, -"+ wScroll /28 +"%)"
+	});
+
+	$(".watchSP").css({
 		"transform" : "translate(0px, -"+ wScroll /28 +"%)"
 	});
 	

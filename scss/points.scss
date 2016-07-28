@@ -86,7 +86,6 @@
 				@include background-2x("/images/4-familiarSP@2x", "png", 210px, 100%);
 			}
 
-
 			&.goals, &.independent, &.rewarding, &.familiar, &.goalsSP, &.independentSP, &.rewardingSP, &.familiarSP {
 				background-position: center;
 			}
@@ -124,6 +123,7 @@
 			margin-bottom: 20px;
 
 
+			// English
 			&.goals {
 				background-image: url(/images/1-goals.png);
 				@include background-2x("/images/1-goals@2x", "png", 210px, 100%);
@@ -144,7 +144,28 @@
 				@include background-2x("/images/4-familiar@2x", "png", 210px, 100%);
 			}
 
-			&.goals, &.independent, &.rewarding, &.familiar {
+			//Spanish
+			&.goalsSP {
+				background-image: url(/images/1-goalsSP.png);
+				@include background-2x("/images/1-goalsSP@2x", "png", 210px, 100%);
+			}
+
+			&.independentSP {
+				background-image: url(/images/2-independentSP.png);
+				@include background-2x("/images/2-independentSP@2x", "png", 210px, 100%);
+			}
+
+			&.rewardingSP {
+				background-image: url(/images/3-rewardingSP.png);
+				@include background-2x("/images/3-rewardingSP@2x", "png", 210px, 100%);
+			}
+
+			&.familiarSP {
+				background-image: url(/images/4-familiarSP.png);
+				@include background-2x("/images/4-familiarSP@2x", "png", 210px, 100%);
+			}
+
+			&.goals, &.independent, &.rewarding, &.familiar, &.goalsSP, &.independentSP, &.rewardingSP, &.familiarSP {
 				background-position: center;
 			}
 
