@@ -414,7 +414,6 @@
     .navigation-items a:first-child {
       margin-left: 0; }
     .navigation-items a:hover {
-      background-color: #181F59;
       border-radius: 6px;
       transition: all 0.2s ease-in-out;
       color: #FFFFFF; } }
