@@ -41,9 +41,13 @@ $('#mce-EMAIL').keyup(function() {
 		$('#mc-embedded-subscribe').addClass('enabled');
 	} else {
 		$('#mc-embedded-subscribe').removeClass('enabled');
+		$('div.mce_inline_error').hide();
 	}
 });
 
+$('#mc-embedded-subscribe').click(function() { 
+	this.classList.remove('enabled');
+});
 
 
 

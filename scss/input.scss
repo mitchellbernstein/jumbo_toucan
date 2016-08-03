@@ -53,7 +53,7 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 				font-weight: normal;
 				font-size: 18px;
 				letter-spacing: -.1px;
-				margin-left: 16px; 
+				margin-left: 31px; 
 				border-style: none;
 				background-color: #454864;
 				color: rgba(255, 255, 255, .3);
@@ -68,31 +68,31 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 	#mc_embed_signup {
 		margin-top: 40px;
 		font-family: $font-stack;
-	#mc-embedded-subscribe-form{
-		max-width: 400px;
-		margin: 0 auto;
-		#mc_embed_signup_scroll {
-			max-width: 100%;
+		#mc-embedded-subscribe-form	{
+			max-width: 400px;
 			margin: 0 auto;
+			#mc_embed_signup_scroll {
+				max-width: 100%;
+				margin: 0 auto;
 
-			#mce-EMAIL {
-				&:focus {
-					border: 2px solid #FFFFFF;
-					color: #FFFFFF;
+				#mce-EMAIL {
+					&:focus {
+						border: 2px solid #FFFFFF;
+						color: #FFFFFF;
+						transition: all 0.2s ease-in-out;
+					}
+					text-align: center;
+					font-family: $font-stack;
+					font-weight: normal;
+					font-size: 20px;
+					padding: 4px;
+					width: 100%;
+					border: 2px solid #454864;
+					box-sizing: border-box;
+					background-color: #090C37;
+					color: rgba(255, 255, 255, .5);
 					transition: all 0.2s ease-in-out;
 				}
-				text-align: center;
-				font-family: $font-stack;
-				font-weight: normal;
-				font-size: 20px;
-				padding: 4px;
-				width: 100%;
-				border: 2px solid #454864;
-				box-sizing: border-box;
-				background-color: #090C37;
-				color: rgba(255, 255, 255, .5);
-				transition: all 0.2s ease-in-out;
-			}
 			
 				#mce-error-response {
 					float: left;
@@ -111,24 +111,16 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 					transition: all 0.2s ease-in-out;
 				}
 
-			#mc-embedded-subscribe {
+				#mc-embedded-subscribe {
 
-				&:hover {
-					background-color: #FFFFFF;
-					color: #090C37;
+					font-family: $font-stack;
+					width: 100%;
+					border-style: none;
+					background-color: #454864;
+					color: rgba(255, 255, 255, .3);
 					transition: all 0.2s ease-in-out;
 				}
-				font-family: $font-stack;
-				width: 100%;
-				border-style: none;
-				background-color: #454864;
-				color: rgba(255, 255, 255, .3);
-				transition: all 0.2s ease-in-out;
 			}
 		}
 	}
-
-	}
-
-		
 }

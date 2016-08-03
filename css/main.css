@@ -455,7 +455,7 @@
         font-weight: normal;
         font-size: 18px;
         letter-spacing: -.1px;
-        margin-left: 16px;
+        margin-left: 31px;
         border-style: none;
         background-color: #454864;
         color: rgba(255, 255, 255, 0.3);
@@ -512,11 +512,7 @@
           #mc_embed_signup #mc-embedded-subscribe-form #mc_embed_signup_scroll #mc-embedded-subscribe.enabled {
             background-color: #FFFFFF;
             color: #090C37;
-          }
-          #mc_embed_signup #mc-embedded-subscribe-form #mc_embed_signup_scroll #mc-embedded-subscribe:hover {
-            background-color: #FFFFFF;
-            color: #090C37;
-            transition: all 0.2s ease-in-out; } }
+          } }
 @media screen and (min-width: 781px) {
   .watch-point {
     display: flex; }
