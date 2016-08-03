@@ -7,9 +7,13 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 		font-family: $font-stack;
 		padding: 20px 10px;
 		-webkit-display: flex;
+		-ms-display: flex;
 		display: flex;
 		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
 		justify-content: space-between;
+		-webkitalign-items: center;
+		-ms-align-items: center;
 		align-items: center;	
 		height: 60px;
 		background-color: #090C37;
@@ -72,12 +76,17 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 		font-family: $font-stack;
 		letter-spacing: -.5px;
 		-webkit-display: flex;
+		-ms-display: flex;
 		display: flex;
 		-webkit-justify-content: space-around;
+		-ms-justify-content: space-around;
 		justify-content: space-around;
+		-webkit-align-items: center;
+		-ms-align-items: center;
 		align-items: center;	
 		height: 100px;
 		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		background-color: #090C37;
 
@@ -102,11 +111,14 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 
 		max-width: 400px;
 		-webkit-display: flex;
+		-ms-display: flex;
 		display: flex;
 		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
 		justify-content: space-between;
-		align-items: center;	
-
+		-webkit-align-items: center;	
+		-ms-align-items: center;
+		align-items: center;
 
 		.lang {
 

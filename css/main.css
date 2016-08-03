@@ -329,9 +329,13 @@
     font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     padding: 20px 10px;
     -webkit-display: flex;
+    -ms-display: flex;
     display: flex;
     -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
     justify-content: space-between;
+    -webkitalign-items: center;
+    -ms-align-items: center;
     align-items: center;
     height: 60px;
     background-color: #090C37; }
@@ -371,12 +375,17 @@
     font-family: filson-soft, trebuchet, helvetica, arial, sans-serif;
     letter-spacing: -.5px;
     -webkit-display: flex;
+    -ms-display: flex;
     display: flex;
     -webkit-justify-content: space-around;
+    -ms-justify-content: space-around;
     justify-content: space-around;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     align-items: center;
     height: 100px;
     -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     background-color: #090C37; }
 
@@ -397,9 +406,13 @@
     margin: 0px 5px 0px 5px;
     max-width: 400px;
     -webkit-display: flex;
+    -ms-display: flex;
     display: flex;
     -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
     justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     align-items: center; }
     .navigation-items .lang {
       color: #FFFFFF; }
@@ -508,11 +521,7 @@
           border-style: none;
           background-color: #454864;
           color: rgba(255, 255, 255, 0.3);
-          transition: all 0.2s ease-in-out; }
-          #mc_embed_signup #mc-embedded-subscribe-form #mc_embed_signup_scroll #mc-embedded-subscribe.enabled {
-            background-color: #FFFFFF;
-            color: #090C37;
-          } }
+          transition: all 0.2s ease-in-out; } }
 @media screen and (min-width: 781px) {
   .watch-point {
     display: flex; }
