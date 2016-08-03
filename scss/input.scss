@@ -50,6 +50,11 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 					color: #090C37;
 					transition: all 0.2s ease-in-out;
 				}
+				&.enabled {
+						background-color: #FFFFFF;
+						color: #090C37;
+						transition: all 0.2s ease-in-out;
+				}
 				font-weight: normal;
 				font-size: 18px;
 				letter-spacing: -.1px;
@@ -112,6 +117,12 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 				}
 			
 				#mc-embedded-subscribe {
+					&.enabled {
+						background-color: #FFFFFF;
+						color: #090C37;
+						transition: all 0.2s ease-in-out;
+					}
+
 					font-family: $font-stack;
 					width: 100%;
 					border-style: none;
