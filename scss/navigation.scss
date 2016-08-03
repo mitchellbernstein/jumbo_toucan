@@ -11,16 +11,18 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 		display: -ms-flexbox;      /* TWEENER - IE 10 */
 		display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
-
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		-webkitalign-items: center;
+		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;	
 		height: 60px;
 		background-color: #090C37;
-
+		@media screen and (min-width:0\0) {
+			-ms-flex-pack: center;
+			align: right;
+		}
 	}
 
 	.logo {
@@ -29,6 +31,9 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 		padding: 14px 24px;
 		margin-left: 10px;
 		font-weight: bold;
+		@media screen and (min-width:0\0) {
+			float: left;
+		}
 	}
 
 	.navigation-items {
