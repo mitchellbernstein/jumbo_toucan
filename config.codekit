@@ -140,28 +140,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/2-independentSP.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10478,
-		"inputAbbreviatedPath": "\/images\/2-independentSP.png",
-		"outputAbbreviatedPath": "\/images\/2-independentSP.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2-independentSP@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21877,
-		"inputAbbreviatedPath": "\/images\/2-independentSP@2x.png",
-		"outputAbbreviatedPath": "\/images\/2-independentSP@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/3-rewarding.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -184,28 +162,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/3-rewardingSP.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25570,
-		"inputAbbreviatedPath": "\/images\/3-rewardingSP.png",
-		"outputAbbreviatedPath": "\/images\/3-rewardingSP.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/3-rewardingSP@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 69903,
-		"inputAbbreviatedPath": "\/images\/3-rewardingSP@2x.png",
-		"outputAbbreviatedPath": "\/images\/3-rewardingSP@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/4-familiar.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -224,28 +180,6 @@
 		"initialSize": 17887,
 		"inputAbbreviatedPath": "\/images\/4-familiar@2x.png",
 		"outputAbbreviatedPath": "\/images\/4-familiar@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/4-familiarSP.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12003,
-		"inputAbbreviatedPath": "\/images\/4-familiarSP.png",
-		"outputAbbreviatedPath": "\/images\/4-familiarSP.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/4-familiarSP@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27527,
-		"inputAbbreviatedPath": "\/images\/4-familiarSP@2x.png",
-		"outputAbbreviatedPath": "\/images\/4-familiarSP@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -323,6 +257,50 @@
 		"initialSize": 2.18707e+06,
 		"inputAbbreviatedPath": "\/images\/mitch.png",
 		"outputAbbreviatedPath": "\/images\/mitch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/New_Watch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150619,
+		"inputAbbreviatedPath": "\/images\/New_Watch.png",
+		"outputAbbreviatedPath": "\/images\/New_Watch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/New_Watch@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 541991,
+		"inputAbbreviatedPath": "\/images\/New_Watch@2x.png",
+		"outputAbbreviatedPath": "\/images\/New_Watch@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/New_WatchSP.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150677,
+		"inputAbbreviatedPath": "\/images\/New_WatchSP.png",
+		"outputAbbreviatedPath": "\/images\/New_WatchSP.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/New_WatchSP@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 539186,
+		"inputAbbreviatedPath": "\/images\/New_WatchSP@2x.png",
+		"outputAbbreviatedPath": "\/images\/New_WatchSP@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
