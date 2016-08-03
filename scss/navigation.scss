@@ -6,9 +6,12 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 	.navigation {
 		font-family: $font-stack;
 		padding: 20px 10px;
-		-webkit-display: flex;
-		-ms-display: flex;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
+
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
@@ -75,9 +78,12 @@ $font-stack: filson-soft, trebuchet, helvetica, arial, sans-serif;
 	.navigation {
 		font-family: $font-stack;
 		letter-spacing: -.5px;
-		-webkit-display: flex;
-		-ms-display: flex;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
+		
 		-webkit-justify-content: space-around;
 		-ms-justify-content: space-around;
 		justify-content: space-around;
