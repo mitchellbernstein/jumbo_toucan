@@ -358,7 +358,8 @@
     color: #717BC9;
     padding: 14px 24px;
     transition: all 0.2s ease-in-out;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    float: right; }
     .navigation-items .lang {
       color: #FFFFFF; }
       .navigation-items .lang span {
