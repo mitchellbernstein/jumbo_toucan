@@ -82,9 +82,9 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		-webkit-flex-wrap: none;
-		-ms-flex-wrap: none;
-		flex-wrap: none;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
 
 		//background-color: red;
 
