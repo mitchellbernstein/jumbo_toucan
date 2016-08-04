@@ -140,6 +140,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/2-independentSP.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16591,
+		"inputAbbreviatedPath": "\/images\/2-independentSP.png",
+		"outputAbbreviatedPath": "\/images\/2-independentSP.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2-independentSP@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37438,
+		"inputAbbreviatedPath": "\/images\/2-independentSP@2x.png",
+		"outputAbbreviatedPath": "\/images\/2-independentSP@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/3-rewarding.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -162,6 +184,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/3-rewardingSP.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32899,
+		"inputAbbreviatedPath": "\/images\/3-rewardingSP.png",
+		"outputAbbreviatedPath": "\/images\/3-rewardingSP.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3-rewardingSP@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94591,
+		"inputAbbreviatedPath": "\/images\/3-rewardingSP@2x.png",
+		"outputAbbreviatedPath": "\/images\/3-rewardingSP@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/4-familiar.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -180,6 +224,28 @@
 		"initialSize": 17887,
 		"inputAbbreviatedPath": "\/images\/4-familiar@2x.png",
 		"outputAbbreviatedPath": "\/images\/4-familiar@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/4-familiarSP.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12021,
+		"inputAbbreviatedPath": "\/images\/4-familiarSP.png",
+		"outputAbbreviatedPath": "\/images\/4-familiarSP.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/4-familiarSP@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27386,
+		"inputAbbreviatedPath": "\/images\/4-familiarSP@2x.png",
+		"outputAbbreviatedPath": "\/images\/4-familiarSP@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -261,55 +327,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/New_Watch.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 150619,
-		"inputAbbreviatedPath": "\/images\/New_Watch.png",
-		"outputAbbreviatedPath": "\/images\/New_Watch.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/New_Watch@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 541991,
-		"inputAbbreviatedPath": "\/images\/New_Watch@2x.png",
-		"outputAbbreviatedPath": "\/images\/New_Watch@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/New_WatchSP.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 150677,
-		"inputAbbreviatedPath": "\/images\/New_WatchSP.png",
-		"outputAbbreviatedPath": "\/images\/New_WatchSP.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/New_WatchSP@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 539186,
-		"inputAbbreviatedPath": "\/images\/New_WatchSP@2x.png",
-		"outputAbbreviatedPath": "\/images\/New_WatchSP@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/WatchEN.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 155698,
+		"initialSize": 648107,
 		"inputAbbreviatedPath": "\/images\/WatchEN.png",
 		"outputAbbreviatedPath": "\/images\/WatchEN.png",
 		"outputPathIsOutsideProject": 0,
@@ -320,7 +342,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 560666,
+		"initialSize": 648107,
 		"inputAbbreviatedPath": "\/images\/WatchEN@2x.png",
 		"outputAbbreviatedPath": "\/images\/WatchEN@2x.png",
 		"outputPathIsOutsideProject": 0,
@@ -331,7 +353,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 157199,
+		"initialSize": 234574,
 		"inputAbbreviatedPath": "\/images\/WatchSP.png",
 		"outputAbbreviatedPath": "\/images\/WatchSP.png",
 		"outputPathIsOutsideProject": 0,
@@ -342,7 +364,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 565353,
+		"initialSize": 649249,
 		"inputAbbreviatedPath": "\/images\/WatchSP@2x.png",
 		"outputAbbreviatedPath": "\/images\/WatchSP@2x.png",
 		"outputPathIsOutsideProject": 0,
@@ -421,6 +443,50 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/New Watch Images\/WatchEN.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 648107,
+		"inputAbbreviatedPath": "\/New Watch Images\/WatchEN.png",
+		"outputAbbreviatedPath": "\/New Watch Images\/WatchEN.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/New Watch Images\/WatchEN@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 648107,
+		"inputAbbreviatedPath": "\/New Watch Images\/WatchEN@2x.png",
+		"outputAbbreviatedPath": "\/New Watch Images\/WatchEN@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/New Watch Images\/WatchSP.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234574,
+		"inputAbbreviatedPath": "\/New Watch Images\/WatchSP.png",
+		"outputAbbreviatedPath": "\/New Watch Images\/WatchSP.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/New Watch Images\/WatchSP@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 649249,
+		"inputAbbreviatedPath": "\/New Watch Images\/WatchSP@2x.png",
+		"outputAbbreviatedPath": "\/New Watch Images\/WatchSP@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/README.md": {
 		"criticStyle": 0,
