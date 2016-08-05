@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP:Accept-Language} (es) [NC]
+RewriteRule .* https://www.jumbotoucan.com/index-spanish.html [L]
