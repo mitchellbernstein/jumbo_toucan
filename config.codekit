@@ -250,17 +250,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/ad.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 279843,
-		"inputAbbreviatedPath": "\/images\/ad.png",
-		"outputAbbreviatedPath": "\/images\/ad.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/alec 2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -279,28 +268,6 @@
 		"initialSize": 1.73826e+06,
 		"inputAbbreviatedPath": "\/images\/alec.png",
 		"outputAbbreviatedPath": "\/images\/alec.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/IMG_0357.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 263718,
-		"inputAbbreviatedPath": "\/images\/IMG_0357.JPG",
-		"outputAbbreviatedPath": "\/images\/IMG_0357.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/mb.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 201145,
-		"inputAbbreviatedPath": "\/images\/mb.png",
-		"outputAbbreviatedPath": "\/images\/mb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
